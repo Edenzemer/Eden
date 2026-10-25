@@ -1,0 +1,88 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Heebo Black,96,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,6,3,2,70,70,520,-1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.16,Main,,0,0,0,,‏{\c&H00D7FF&}כן, {\c&HFFFFFF&}קייסי,
+Dialogue: 0,0:00:01.16,0:00:01.96,Main,,0,0,0,,‏{\c&HFFFFFF&}כן, {\c&H00D7FF&}קייסי,
+Dialogue: 0,0:00:01.98,0:00:02.54,Main,,0,0,0,,‏{\c&H00D7FF&}מאחר {\c&HFFFFFF&}שיש {\c&HFFFFFF&}לי
+Dialogue: 0,0:00:02.54,0:00:02.66,Main,,0,0,0,,‏{\c&HFFFFFF&}מאחר {\c&H00D7FF&}שיש {\c&HFFFFFF&}לי
+Dialogue: 0,0:00:02.66,0:00:02.74,Main,,0,0,0,,‏{\c&HFFFFFF&}מאחר {\c&HFFFFFF&}שיש {\c&H00D7FF&}לי
+Dialogue: 0,0:00:02.74,0:00:02.80,Main,,0,0,0,,‏{\c&H00D7FF&}יום {\c&HFFFFFF&}הולדת,
+Dialogue: 0,0:00:02.80,0:00:03.42,Main,,0,0,0,,‏{\c&HFFFFFF&}יום {\c&H00D7FF&}הולדת,
+Dialogue: 0,0:00:03.42,0:00:04.04,Main,,0,0,0,,‏{\c&H00D7FF&}קנית {\c&HFFFFFF&}לי {\c&HFFFFFF&}מתנות?
+Dialogue: 0,0:00:04.04,0:00:04.12,Main,,0,0,0,,‏{\c&HFFFFFF&}קנית {\c&H00D7FF&}לי {\c&HFFFFFF&}מתנות?
+Dialogue: 0,0:00:04.12,0:00:04.80,Main,,0,0,0,,‏{\c&HFFFFFF&}קנית {\c&HFFFFFF&}לי {\c&H00D7FF&}מתנות?
+Dialogue: 0,0:00:04.80,0:00:05.66,Main,,0,0,0,,‏{\c&H00D7FF&}אה?
+Dialogue: 0,0:00:05.66,0:00:06.14,Main,,0,0,0,,‏{\c&H00D7FF&}קנית {\c&HFFFFFF&}לי {\c&HFFFFFF&}מתנות?
+Dialogue: 0,0:00:06.14,0:00:06.22,Main,,0,0,0,,‏{\c&HFFFFFF&}קנית {\c&H00D7FF&}לי {\c&HFFFFFF&}מתנות?
+Dialogue: 0,0:00:06.22,0:00:07.10,Main,,0,0,0,,‏{\c&HFFFFFF&}קנית {\c&HFFFFFF&}לי {\c&H00D7FF&}מתנות?
+Dialogue: 0,0:00:08.02,0:00:08.52,Main,,0,0,0,,‏{\c&H00D7FF&}טוב,
+Dialogue: 0,0:00:08.52,0:00:08.70,Main,,0,0,0,,‏{\c&H00D7FF&}בוא {\c&HFFFFFF&}נראה {\c&HFFFFFF&}להם
+Dialogue: 0,0:00:08.70,0:00:08.88,Main,,0,0,0,,‏{\c&HFFFFFF&}בוא {\c&H00D7FF&}נראה {\c&HFFFFFF&}להם
+Dialogue: 0,0:00:08.88,0:00:09.04,Main,,0,0,0,,‏{\c&HFFFFFF&}בוא {\c&HFFFFFF&}נראה {\c&H00D7FF&}להם
+Dialogue: 0,0:00:09.04,0:00:09.12,Main,,0,0,0,,‏{\c&H00D7FF&}מה {\c&HFFFFFF&}קנית {\c&HFFFFFF&}לי.
+Dialogue: 0,0:00:09.12,0:00:09.44,Main,,0,0,0,,‏{\c&HFFFFFF&}מה {\c&H00D7FF&}קנית {\c&HFFFFFF&}לי.
+Dialogue: 0,0:00:09.44,0:00:10.12,Main,,0,0,0,,‏{\c&HFFFFFF&}מה {\c&HFFFFFF&}קנית {\c&H00D7FF&}לי.
+Dialogue: 0,0:00:10.26,0:00:10.78,Main,,0,0,0,,‏{\c&H00D7FF&}אז {\c&HFFFFFF&}יש {\c&HFFFFFF&}פה
+Dialogue: 0,0:00:10.78,0:00:10.94,Main,,0,0,0,,‏{\c&HFFFFFF&}אז {\c&H00D7FF&}יש {\c&HFFFFFF&}פה
+Dialogue: 0,0:00:10.94,0:00:11.70,Main,,0,0,0,,‏{\c&HFFFFFF&}אז {\c&HFFFFFF&}יש {\c&H00D7FF&}פה
+Dialogue: 0,0:00:14.24,0:00:14.96,Main,,0,0,0,,‏{\c&H00D7FF&}קרוקס {\c&HFFFFFF&}של
+Dialogue: 0,0:00:14.96,0:00:15.16,Main,,0,0,0,,‏{\c&HFFFFFF&}קרוקס {\c&H00D7FF&}של
+Dialogue: 0,0:00:15.16,0:00:15.48,Main,,0,0,0,,‏{\c&H00D7FF&}דארת' {\c&HFFFFFF&}ויידר,
+Dialogue: 0,0:00:15.48,0:00:16.48,Main,,0,0,0,,‏{\c&HFFFFFF&}דארת' {\c&H00D7FF&}ויידר,
+Dialogue: 0,0:00:16.48,0:00:17.32,Main,,0,0,0,,‏{\c&H00D7FF&}תודה.
+Dialogue: 0,0:00:17.82,0:00:18.32,Main,,0,0,0,,‏{\c&H00D7FF&}ויש {\c&HFFFFFF&}פה {\c&HFFFFFF&}את
+Dialogue: 0,0:00:18.32,0:00:18.58,Main,,0,0,0,,‏{\c&HFFFFFF&}ויש {\c&H00D7FF&}פה {\c&HFFFFFF&}את
+Dialogue: 0,0:00:18.58,0:00:19.52,Main,,0,0,0,,‏{\c&HFFFFFF&}ויש {\c&HFFFFFF&}פה {\c&H00D7FF&}את
+Dialogue: 0,0:00:19.52,0:00:20.00,Main,,0,0,0,,‏{\c&H00D7FF&}הריי-באן {\c&HFFFFFF&}מטא,
+Dialogue: 0,0:00:20.00,0:00:20.84,Main,,0,0,0,,‏{\c&HFFFFFF&}הריי-באן {\c&H00D7FF&}מטא,
+Dialogue: 0,0:00:20.84,0:00:21.42,Main,,0,0,0,,‏{\c&H00D7FF&}דור {\c&HFFFFFF&}שלישי.
+Dialogue: 0,0:00:21.42,0:00:22.30,Main,,0,0,0,,‏{\c&HFFFFFF&}דור {\c&H00D7FF&}שלישי.
+Dialogue: 0,0:00:22.30,0:00:22.84,Main,,0,0,0,,‏{\c&H00D7FF&}תודה, {\c&HFFFFFF&}קייסי.
+Dialogue: 0,0:00:22.84,0:00:23.66,Main,,0,0,0,,‏{\c&HFFFFFF&}תודה, {\c&H00D7FF&}קייסי.
+Dialogue: 0,0:00:25.72,0:00:26.44,Main,,0,0,0,,‏{\c&H00D7FF&}בגדים {\c&HFFFFFF&}וקלפים
+Dialogue: 0,0:00:26.44,0:00:27.16,Main,,0,0,0,,‏{\c&HFFFFFF&}בגדים {\c&H00D7FF&}וקלפים
+Dialogue: 0,0:00:27.16,0:00:27.76,Main,,0,0,0,,‏{\c&H00D7FF&}של {\c&HFFFFFF&}פוקימון,
+Dialogue: 0,0:00:27.76,0:00:28.24,Main,,0,0,0,,‏{\c&HFFFFFF&}של {\c&H00D7FF&}פוקימון,
+Dialogue: 0,0:00:28.24,0:00:28.30,Main,,0,0,0,,‏{\c&H00D7FF&}יש {\c&HFFFFFF&}פה {\c&HFFFFFF&}את
+Dialogue: 0,0:00:28.30,0:00:28.40,Main,,0,0,0,,‏{\c&HFFFFFF&}יש {\c&H00D7FF&}פה {\c&HFFFFFF&}את
+Dialogue: 0,0:00:28.40,0:00:28.48,Main,,0,0,0,,‏{\c&HFFFFFF&}יש {\c&HFFFFFF&}פה {\c&H00D7FF&}את
+Dialogue: 0,0:00:28.48,0:00:28.74,Main,,0,0,0,,‏{\c&H00D7FF&}ה-30 {\c&HFFFFFF&}שנה,
+Dialogue: 0,0:00:28.74,0:00:29.18,Main,,0,0,0,,‏{\c&HFFFFFF&}ה-30 {\c&H00D7FF&}שנה,
+Dialogue: 0,0:00:29.18,0:00:29.68,Main,,0,0,0,,‏{\c&H00D7FF&}יש {\c&HFFFFFF&}פה {\c&HFFFFFF&}את
+Dialogue: 0,0:00:29.68,0:00:29.80,Main,,0,0,0,,‏{\c&HFFFFFF&}יש {\c&H00D7FF&}פה {\c&HFFFFFF&}את
+Dialogue: 0,0:00:29.80,0:00:29.88,Main,,0,0,0,,‏{\c&HFFFFFF&}יש {\c&HFFFFFF&}פה {\c&H00D7FF&}את
+Dialogue: 0,0:00:29.88,0:00:30.32,Main,,0,0,0,,‏{\c&H00D7FF&}האסנדד {\c&HFFFFFF&}הירוז
+Dialogue: 0,0:00:30.32,0:00:30.64,Main,,0,0,0,,‏{\c&HFFFFFF&}האסנדד {\c&H00D7FF&}הירוז
+Dialogue: 0,0:00:30.64,0:00:31.46,Main,,0,0,0,,‏{\c&H00D7FF&}ויש {\c&HFFFFFF&}פה {\c&HFFFFFF&}עוד
+Dialogue: 0,0:00:31.46,0:00:31.68,Main,,0,0,0,,‏{\c&HFFFFFF&}ויש {\c&H00D7FF&}פה {\c&HFFFFFF&}עוד
+Dialogue: 0,0:00:31.68,0:00:32.54,Main,,0,0,0,,‏{\c&HFFFFFF&}ויש {\c&HFFFFFF&}פה {\c&H00D7FF&}עוד
+Dialogue: 0,0:00:32.54,0:00:32.74,Main,,0,0,0,,‏{\c&H00D7FF&}30 {\c&HFFFFFF&}שנה.
+Dialogue: 0,0:00:32.74,0:00:33.72,Main,,0,0,0,,‏{\c&HFFFFFF&}30 {\c&H00D7FF&}שנה.
+Dialogue: 0,0:00:34.74,0:00:35.52,Main,,0,0,0,,‏{\c&H00D7FF&}וכמובן,
+Dialogue: 0,0:00:35.52,0:00:36.02,Main,,0,0,0,,‏{\c&H00D7FF&}אשתי {\c&HFFFFFF&}לא {\c&HFFFFFF&}יודעת
+Dialogue: 0,0:00:36.02,0:00:36.18,Main,,0,0,0,,‏{\c&HFFFFFF&}אשתי {\c&H00D7FF&}לא {\c&HFFFFFF&}יודעת
+Dialogue: 0,0:00:36.18,0:00:36.50,Main,,0,0,0,,‏{\c&HFFFFFF&}אשתי {\c&HFFFFFF&}לא {\c&H00D7FF&}יודעת
+Dialogue: 0,0:00:36.50,0:00:36.98,Main,,0,0,0,,‏{\c&H00D7FF&}איזה {\c&HFFFFFF&}סטים
+Dialogue: 0,0:00:36.98,0:00:37.32,Main,,0,0,0,,‏{\c&HFFFFFF&}איזה {\c&H00D7FF&}סטים
+Dialogue: 0,0:00:37.32,0:00:37.52,Main,,0,0,0,,‏{\c&H00D7FF&}יש {\c&HFFFFFF&}לי,
+Dialogue: 0,0:00:37.52,0:00:38.10,Main,,0,0,0,,‏{\c&HFFFFFF&}יש {\c&H00D7FF&}לי,
+Dialogue: 0,0:00:38.10,0:00:38.56,Main,,0,0,0,,‏{\c&H00D7FF&}אז {\c&HFFFFFF&}יש {\c&HFFFFFF&}לי
+Dialogue: 0,0:00:38.56,0:00:38.66,Main,,0,0,0,,‏{\c&HFFFFFF&}אז {\c&H00D7FF&}יש {\c&HFFFFFF&}לי
+Dialogue: 0,0:00:38.66,0:00:38.72,Main,,0,0,0,,‏{\c&HFFFFFF&}אז {\c&HFFFFFF&}יש {\c&H00D7FF&}לי
+Dialogue: 0,0:00:38.72,0:00:38.94,Main,,0,0,0,,‏{\c&H00D7FF&}עכשיו {\c&HFFFFFF&}את
+Dialogue: 0,0:00:38.94,0:00:39.04,Main,,0,0,0,,‏{\c&HFFFFFF&}עכשיו {\c&H00D7FF&}את
+Dialogue: 0,0:00:39.04,0:00:39.10,Main,,0,0,0,,‏{\c&H00D7FF&}זה {\c&HFFFFFF&}פעמיים.
+Dialogue: 0,0:00:39.10,0:00:39.86,Main,,0,0,0,,‏{\c&HFFFFFF&}זה {\c&H00D7FF&}פעמיים.
+Dialogue: 0,0:00:40.44,0:00:41.58,Main,,0,0,0,,‏{\c&H00D7FF&}יפה.
+Dialogue: 0,0:00:43.20,0:00:44.34,Main,,0,0,0,,‏{\c&H00D7FF&}תודה.
+Dialogue: 0,0:00:44.44,0:00:45.72,Main,,0,0,0,,‏{\c&H00D7FF&}צ'ופו.
