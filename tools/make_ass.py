@@ -38,6 +38,15 @@ for m in phrases:
         elif w=="לרוקב": w="לרוחב"
         o.append([w,a,b,e]); i+=1
     if o: fixed.append(o)
+# refine with forced alignment (tools/align.py) where it agrees with the transcription timing
+al=os.path.join(here,"aligned.json")
+if os.path.exists(al):
+    A=json.load(open(al)); assert len(A)==len(fixed)
+    for m,am in zip(fixed,A):
+        prev_end=-1
+        for t,x in zip(m,am):
+            if abs(x[1]-t[1])<=0.5 and abs(x[2]-t[2])<=1.0 and x[1]>=prev_end-0.05: t[1],t[2]=x[1],x[2]
+            prev_end=t[2]
 for m in fixed:
     for k,t in enumerate(m):
         if t[2]<=t[1]: t[2]=t[1]+0.2

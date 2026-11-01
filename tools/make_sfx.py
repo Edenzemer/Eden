@@ -24,6 +24,6 @@ def snd():
 s=snd(); L=int(dur*sr)+sr; mix=np.zeros(L)
 for t in times:
     i=int(t*sr); mix[i:i+len(s)]+=s[:L-i]
-mix=np.clip(mix*0.6,-0.9,0.9); pcm=(np.stack([mix,mix],1)*32767).astype('<i2')
+mix=np.clip(mix*0.33,-0.9,0.9); pcm=(np.stack([mix,mix],1)*32767).astype('<i2')
 w=wave.open(out,"wb"); w.setnchannels(2); w.setsampwidth(2); w.setframerate(sr); w.writeframes(pcm.tobytes()); w.close()
 print("ok",len(times),"hits, peak",np.abs(mix).max())
