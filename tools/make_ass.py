@@ -1,61 +1,53 @@
 import json,sys,math,os
 src,out=sys.argv[1],sys.argv[2]
+here=os.path.dirname(os.path.abspath(src))
 GOLD,WHITE="&H00D7FF&","&HFFFFFF&"
 segs=json.load(open(src))
-def clean(w): return w.strip().rstrip(",.").replace("‏","")
-seq=[]  # per sentence: list of [word,start,end]
+def clean(w): return w.strip().rstrip(",.?!").replace("‏","")
+def brk(w): return w.strip().endswith((",",".","?","!"))
+# ---- tokens, phrases
+phrases=[]
 for s in segs:
-    toks=[[clean(w),a,b] for w,a,b in s["w"]]
-    m=[]
-    for t in toks:
-        if t[0].startswith(("-","'")) and m: m[-1][0]+=t[0]; m[-1][2]=t[2]
-        elif t[0].startswith("060") or t[0]==",060": m[-1][0]+=",060"; m[-1][2]=t[2]
-        else: m.append(t)
-    seq.append(m)
+    cur=[]
+    for w,a,b in s["w"]:
+        t=[clean(w),a,b,brk(w)]
+        if t[0].startswith(("-","'")) and cur: cur[-1][0]+=t[0]; cur[-1][2]=t[2]; cur[-1][3]=t[3]
+        elif t[0].startswith(",060") or t[0]=="060": cur[-1][0]+=",060"; cur[-1][2]=t[2]; cur[-1][3]=t[3]
+        else: cur.append(t)
+        if cur[-1][3]: phrases.append(cur); cur=[]
+    if cur: phrases.append(cur)
 def split2(t,w1,w2):
-    mid=(t[1]+t[2])/2; return [[w1,t[1],mid],[w2,mid,t[2]]]
-fixed=[]; n_gova=0
-for m in seq:
+    mid=(t[1]+t[2])/2; return [[w1,t[1],mid,False],[w2,mid,t[2],t[3]]]
+n_gova=0; fixed=[]
+for m in phrases:
     o=[]; i=0
     while i<len(m):
-        w,a,b=m[i]
-        if w=="ה" and i+1<len(m) and "gift" in m[i+1][0]:
-            g=m[i+1]; p=m[i+2]; i+=3; mid=(g[1]+g[2])/2
-            o+= [["gift",g[1],g[2]],["with",p[1],p[1]+0.2],["purchase",p[1]+0.2,p[2]]]; continue
-        if w=="ה" and i+1<len(m) and "cozy" in m[i+1][0].lower():
-            c=m[i+1]; p=m[i+2]; i+=3
-            o+= [["Cozy",c[1],c[2]],["Plants",p[1],p[2]]]; continue
-        if w=="ה-gift": o.append(["GWP",a,m[i+1][2]]); i+=2; continue
-        elif w.startswith("צ'נרון"): w="שנרון"
-        elif w=="מטחק": o+=split2([w,a,b],"דרגון","בול"); i+=1; continue
-        elif w=="113900": w="11390"; b=a+1.0
-        elif w=="מבנציה": w="מוונציה"
-        elif w=="מטפסת": w="מדפסת"
-        elif w=="לטממט": o+=split2([w,a,b],"תלת","מימד"); i+=1; continue
-        elif w=="קצת": w="תלת"
-        elif w=="מטוח": w="מטורף"
-        elif w=="מהדגנים": w="מהדגמים"
-        elif w=="וסטארו": o+=split2([w,a,b],"וסטאר","וורס"); i+=1; continue
-        elif w=="סל": w="סייל"
-        elif w=="לגובה":
-            n_gova+=1
-            if n_gova==2: w="לרוחב"; b=a+0.4
-        elif w=="ומתנה" and a==b: b=a+0.2
-        o.append([w,a,b]); i+=1
-    fixed.append(o)
-# fix zero/overlaps
+        t=m[i]; w,a,b,e=t
+        if w=="ה-GIFT":   # "gift with purchase" -> GWP
+            end=m[i+1][2] if i+1<len(m) else b
+            o.append(["GWP",a,end,False]); i+=2; continue
+        if w=="ה-Cozy": w="Cozy"
+        elif w=="דרגלו": o+=split2(t,"דרגון","בול"); i+=1; continue
+        elif w=="1139": w="11390"
+        elif w=="פסת": i+=1; continue           # unclear word, dropped
+        elif w=="סגראדה": w="סגרדה"
+        elif w=="חבוד": w="חמוד"
+        elif w=="טיסני": w="דיסני"
+        elif w=="וסטארוורס": o+=split2(t,"וסטאר","וורס"); i+=1; continue
+        elif w=="סאל": w="סייל"
+        elif w=="לרוקב": w="לרוחב"
+        o.append([w,a,b,e]); i+=1
+    if o: fixed.append(o)
 for m in fixed:
     for k,t in enumerate(m):
         if t[2]<=t[1]: t[2]=t[1]+0.2
         if k+1<len(m) and t[2]>m[k+1][1]: t[2]=m[k+1][1]
-# clip captions to real speech (no text during silence)
-import os
-sp=json.load(open(os.path.join(os.path.dirname(os.path.abspath(src)),"speech.json")))
+# ---- speech map (captions only while speaking)
+sp=json.load(open(os.path.join(here,"speech.json")))
 mg=[]
 for a,b in sp:
     if mg and a-mg[-1][1]<0.35: mg[-1][1]=b
     else: mg.append([a,b])
-# first word starts in silence just before speech: start it at speech onset, keep later words as timed
 for m in fixed:
     st=m[0][1]
     if any(x-0.02<=st<=y for x,y in mg): continue
@@ -68,41 +60,38 @@ for m in fixed:
 def chunks(m):
     n=len(m); g=math.ceil(n/3); size=math.ceil(n/g); return [m[i:i+size] for i in range(0,n,size)]
 def ts(t):
-    h=int(t//3600); mi=int(t%3600//60); s=t%60; return f"{h}:{mi:02d}:{s:05.2f}"
+    t=max(t,0); h=int(t//3600); mi=int(t%3600//60); s=t%60; return f"{h}:{mi:02d}:{s:05.2f}"
 ev=[]
 for m in fixed:
     for line in chunks(m):
-        for k,(w,a,b) in enumerate(line):
-            end=line[k+1][1] if k+1<len(line) else b+0.12
-            end=min(end,b+0.35) if k+1<len(line) else end
+        for k,(w,a,b,_) in enumerate(line):
+            end=min(line[k+1][1],b+0.35) if k+1<len(line) else b+0.12
             txt=" ".join(f"{{\\c{GOLD if j==k else WHITE}}}{x[0]}" for j,x in enumerate(line))
-            ev.append((a,end,"Main",""+"‏"+txt))
-# set info (box visible only)  (start,end,[lines])
+            ev.append((a,end,"Main","‏"+txt))
+# ---- set info: (start,end) snapped to real scene cuts, each shown ~6s then leaves
 INFO=[
- (12.0,20.4,"Icons: 11388","Venetian Neighborhood","5,682 חלקים"),
- (20.4,23.6,"Icons: 40898","Venetian Water Taxi GWP","322 חלקים"),
- (24.8,42.6,"Icons: 11390","Dragon Ball: Shenron & Goku","1,764 חלקים"),
- (42.7,49.0,"Botanicals: 10371","Cozy Plants","248 חלקים"),
- (49.0,76.3,"Icons: 11388","Venetian Neighborhood","5,682 חלקים"),
- (76.4,96.0,"Architecture: 21065","Sagrada Família","12,060 חלקים"),
- (99.8,104.4,"Ideas: 40889","Build, Paint and Play GWP","158 חלקים"),
- (122.4,127.8,"Ideas: 40889","Build, Paint and Play GWP","158 חלקים"),
+ (12.24,18.8,"Icons: 11388","Venetian Neighborhood","5,682 חלקים"),
+ (20.55,24.0,"Icons: 40898","Venetian Water Taxi GWP","322 חלקים"),
+ (27.17,33.8,"Icons: 11390","Dragon Ball: Shenron & Goku","1,764 חלקים"),
+ (37.52,41.8,"Icons: 11390","Dragon Ball: Shenron & Goku","1,764 חלקים"),
+ (43.40,49.2,"Botanicals: 10371","Cozy Plants","248 חלקים"),
+ (50.11,56.0,"Icons: 11388","Venetian Neighborhood","5,682 חלקים"),
+ (76.65,82.9,"Architecture: 21065","Sagrada Família","12,060 חלקים"),
+ (100.0,105.4,"Ideas: 40889","Build, Paint and Play GWP","158 חלקים"),
+ (123.08,127.8,"Ideas: 40889","Build, Paint and Play GWP","158 חלקים"),
 ]
 for a,b,l1,l2,l3 in INFO:
-    # staggered, understated entrance: fade + short upward glide per line
     for i,(txt,cy,fs,col) in enumerate([(l1,429,106,"&HFFFFFF&"),(l2,537,106,"&HFFFFFF&"),(l3,635,88,"&H00D7FF&")]):
-        st=a+0.09*i
         tag=f"{{\\an5\\fs{fs}\\c{col}\\fad(300,260)\\move(540,{cy+28},540,{cy},0,380)}}"
-        ev.append((st,b,"Info",tag+txt))
-json.dump([x[0] for x in INFO],open(os.path.join(os.path.dirname(os.path.abspath(src)),"info_times.json"),"w"))
+        ev.append((a+0.09*i,b,"Info",tag+txt))
+json.dump([x[0] for x in INFO],open(os.path.join(here,"info_times.json"),"w"))
 clipped=[]
 for e in ev:
     if e[2]!="Main": clipped.append(e); continue
     for a,b in mg:
         lo,hi=max(e[0],a),min(e[1],b)
         if hi-lo>=0.04: clipped.append((lo,hi,e[2],e[3]))
-ev=clipped
-ev.sort(key=lambda e:(e[0],e[2]))
+ev=sorted(clipped,key=lambda e:(e[0],e[2]))
 main=[i for i,e in enumerate(ev) if e[2]=="Main"]
 for x,y in zip(main,main[1:]):
     if ev[x][1]>ev[y][0]: ev[x]=(ev[x][0],ev[y][0],ev[x][2],ev[x][3])
