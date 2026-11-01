@@ -25,7 +25,9 @@ for m in seq:
         if w=="ה" and i+1<len(m) and "cozy" in m[i+1][0].lower():
             c=m[i+1]; p=m[i+2]; i+=3
             o+= [["Cozy",c[1],c[2]],["Plants",p[1],p[2]]]; continue
-        if w.startswith("צ'נרון"): w="שנרון"
+        if w=="ה-gift": w="gift"
+        elif w=="repurchase": o+=split2([w,a,b],"with","purchase"); i+=1; continue
+        elif w.startswith("צ'נרון"): w="שנרון"
         elif w=="מטחק": o+=split2([w,a,b],"דרגון","בול"); i+=1; continue
         elif w=="113900": w="11390"; b=a+1.0
         elif w=="מבנציה": w="מוונציה"
