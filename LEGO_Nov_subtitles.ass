@@ -36,7 +36,9 @@ Dialogue: 0,0:00:06.36,0:00:06.50,Main,,0,0,0,,‏{\c&HFFFFFF&}ואני {\c&H00D
 Dialogue: 0,0:00:06.50,0:00:06.80,Main,,0,0,0,,‏{\c&HFFFFFF&}ואני {\c&HFFFFFF&}אראה {\c&H00D7FF&}לכם
 Dialogue: 0,0:00:06.80,0:00:07.14,Main,,0,0,0,,‏{\c&H00D7FF&}מה {\c&HFFFFFF&}יצא
 Dialogue: 0,0:00:07.14,0:00:07.76,Main,,0,0,0,,‏{\c&HFFFFFF&}מה {\c&H00D7FF&}יצא
-Dialogue: 0,0:00:12.00,0:00:20.40,Info,,0,0,0,,Icons: 11388\NVenetian Neighborhood\N{\fs88\c&H00D7FF&}5,682 חלקים
+Dialogue: 0,0:00:12.00,0:00:20.40,Info,,0,0,0,,{\an5\fs106\c&HFFFFFF&\fad(300,260)\move(540,457,540,429,0,380)}Icons: 11388
+Dialogue: 0,0:00:12.09,0:00:20.40,Info,,0,0,0,,{\an5\fs106\c&HFFFFFF&\fad(300,260)\move(540,565,540,537,0,380)}Venetian Neighborhood
+Dialogue: 0,0:00:12.18,0:00:20.40,Info,,0,0,0,,{\an5\fs88\c&H00D7FF&\fad(300,260)\move(540,663,540,635,0,380)}5,682 חלקים
 Dialogue: 0,0:00:12.45,0:00:12.57,Main,,0,0,0,,‏{\c&H00D7FF&}טוב {\c&HFFFFFF&}אז {\c&HFFFFFF&}פה
 Dialogue: 0,0:00:12.57,0:00:12.64,Main,,0,0,0,,‏{\c&HFFFFFF&}טוב {\c&H00D7FF&}אז {\c&HFFFFFF&}פה
 Dialogue: 0,0:00:12.64,0:00:12.78,Main,,0,0,0,,‏{\c&HFFFFFF&}טוב {\c&HFFFFFF&}אז {\c&H00D7FF&}פה
@@ -55,7 +57,9 @@ Dialogue: 0,0:00:18.34,0:00:19.28,Main,,0,0,0,,‏{\c&H00D7FF&}תראו {\c&HFFF
 Dialogue: 0,0:00:19.28,0:00:19.56,Main,,0,0,0,,‏{\c&HFFFFFF&}תראו {\c&H00D7FF&}איזה {\c&HFFFFFF&}מטורף
 Dialogue: 0,0:00:19.56,0:00:20.08,Main,,0,0,0,,‏{\c&HFFFFFF&}תראו {\c&HFFFFFF&}איזה {\c&H00D7FF&}מטורף
 Dialogue: 0,0:00:20.08,0:00:20.32,Main,,0,0,0,,‏{\c&H00D7FF&}יש {\c&HFFFFFF&}לנו {\c&HFFFFFF&}פה
-Dialogue: 0,0:00:20.40,0:00:23.60,Info,,0,0,0,,Icons: 40898\NVenetian Water Taxi GWP\N{\fs88\c&H00D7FF&}322 חלקים
+Dialogue: 0,0:00:20.40,0:00:23.60,Info,,0,0,0,,{\an5\fs106\c&HFFFFFF&\fad(300,260)\move(540,457,540,429,0,380)}Icons: 40898
+Dialogue: 0,0:00:20.49,0:00:23.60,Info,,0,0,0,,{\an5\fs106\c&HFFFFFF&\fad(300,260)\move(540,565,540,537,0,380)}Venetian Water Taxi GWP
+Dialogue: 0,0:00:20.58,0:00:23.60,Info,,0,0,0,,{\an5\fs88\c&H00D7FF&\fad(300,260)\move(540,663,540,635,0,380)}322 חלקים
 Dialogue: 0,0:00:20.74,0:00:20.86,Main,,0,0,0,,‏{\c&HFFFFFF&}יש {\c&H00D7FF&}לנו {\c&HFFFFFF&}פה
 Dialogue: 0,0:00:20.86,0:00:21.04,Main,,0,0,0,,‏{\c&HFFFFFF&}יש {\c&HFFFFFF&}לנו {\c&H00D7FF&}פה
 Dialogue: 0,0:00:21.04,0:00:21.20,Main,,0,0,0,,‏{\c&H00D7FF&}גם {\c&HFFFFFF&}את {\c&HFFFFFF&}GWP
@@ -63,8 +67,10 @@ Dialogue: 0,0:00:21.20,0:00:21.38,Main,,0,0,0,,‏{\c&HFFFFFF&}גם {\c&H00D7FF&
 Dialogue: 0,0:00:21.38,0:00:22.48,Main,,0,0,0,,‏{\c&HFFFFFF&}גם {\c&HFFFFFF&}את {\c&H00D7FF&}GWP
 Dialogue: 0,0:00:24.07,0:00:24.30,Main,,0,0,0,,‏{\c&H00D7FF&}פשוט {\c&HFFFFFF&}וואו
 Dialogue: 0,0:00:24.30,0:00:24.94,Main,,0,0,0,,‏{\c&HFFFFFF&}פשוט {\c&H00D7FF&}וואו
-Dialogue: 0,0:00:24.80,0:00:42.60,Info,,0,0,0,,Icons: 11390\NDragon Ball: Shenron & Goku\N{\fs88\c&H00D7FF&}1,764 חלקים
+Dialogue: 0,0:00:24.80,0:00:42.60,Info,,0,0,0,,{\an5\fs106\c&HFFFFFF&\fad(300,260)\move(540,457,540,429,0,380)}Icons: 11390
+Dialogue: 0,0:00:24.89,0:00:42.60,Info,,0,0,0,,{\an5\fs106\c&HFFFFFF&\fad(300,260)\move(540,565,540,537,0,380)}Dragon Ball: Shenron & Goku
 Dialogue: 0,0:00:24.94,0:00:25.24,Main,,0,0,0,,‏{\c&H00D7FF&}פה {\c&HFFFFFF&}יש {\c&HFFFFFF&}לנו
+Dialogue: 0,0:00:24.98,0:00:42.60,Info,,0,0,0,,{\an5\fs88\c&H00D7FF&\fad(300,260)\move(540,663,540,635,0,380)}1,764 חלקים
 Dialogue: 0,0:00:27.52,0:00:27.70,Main,,0,0,0,,‏{\c&HFFFFFF&}פה {\c&H00D7FF&}יש {\c&HFFFFFF&}לנו
 Dialogue: 0,0:00:27.70,0:00:27.92,Main,,0,0,0,,‏{\c&HFFFFFF&}פה {\c&HFFFFFF&}יש {\c&H00D7FF&}לנו
 Dialogue: 0,0:00:27.92,0:00:28.96,Main,,0,0,0,,‏{\c&H00D7FF&}שנרון {\c&HFFFFFF&}דרגון {\c&HFFFFFF&}בול
@@ -85,7 +91,9 @@ Dialogue: 0,0:00:39.74,0:00:40.32,Main,,0,0,0,,‏{\c&HFFFFFF&}שנרון {\c&H0
 Dialogue: 0,0:00:40.32,0:00:40.67,Main,,0,0,0,,‏{\c&H00D7FF&}פשוט {\c&HFFFFFF&}משוגע
 Dialogue: 0,0:00:41.32,0:00:41.42,Main,,0,0,0,,‏{\c&H00D7FF&}פשוט {\c&HFFFFFF&}משוגע
 Dialogue: 0,0:00:41.42,0:00:42.00,Main,,0,0,0,,‏{\c&HFFFFFF&}פשוט {\c&H00D7FF&}משוגע
-Dialogue: 0,0:00:42.70,0:00:49.00,Info,,0,0,0,,Botanicals: 10371\NCozy Plants\N{\fs88\c&H00D7FF&}248 חלקים
+Dialogue: 0,0:00:42.70,0:00:49.00,Info,,0,0,0,,{\an5\fs106\c&HFFFFFF&\fad(300,260)\move(540,457,540,429,0,380)}Botanicals: 10371
+Dialogue: 0,0:00:42.79,0:00:49.00,Info,,0,0,0,,{\an5\fs106\c&HFFFFFF&\fad(300,260)\move(540,565,540,537,0,380)}Cozy Plants
+Dialogue: 0,0:00:42.88,0:00:49.00,Info,,0,0,0,,{\an5\fs88\c&H00D7FF&\fad(300,260)\move(540,663,540,635,0,380)}248 חלקים
 Dialogue: 0,0:00:43.52,0:00:43.66,Main,,0,0,0,,‏{\c&HFFFFFF&}פה {\c&H00D7FF&}יש {\c&HFFFFFF&}לנו
 Dialogue: 0,0:00:43.66,0:00:43.84,Main,,0,0,0,,‏{\c&HFFFFFF&}פה {\c&HFFFFFF&}יש {\c&H00D7FF&}לנו
 Dialogue: 0,0:00:43.84,0:00:44.12,Main,,0,0,0,,‏{\c&H00D7FF&}את {\c&HFFFFFF&}ה-cozy {\c&HFFFFFF&}plants
@@ -97,8 +105,10 @@ Dialogue: 0,0:00:46.04,0:00:46.34,Main,,0,0,0,,‏{\c&HFFFFFF&}סט {\c&H00D7FF&
 Dialogue: 0,0:00:46.34,0:00:47.88,Main,,0,0,0,,‏{\c&HFFFFFF&}סט {\c&HFFFFFF&}מספר {\c&H00D7FF&}10371
 Dialogue: 0,0:00:47.88,0:00:48.35,Main,,0,0,0,,‏{\c&H00D7FF&}חמוד
 Dialogue: 0,0:00:48.80,0:00:49.08,Main,,0,0,0,,‏{\c&H00D7FF&}חמוד
-Dialogue: 0,0:00:49.00,0:01:16.30,Info,,0,0,0,,Icons: 11388\NVenetian Neighborhood\N{\fs88\c&H00D7FF&}5,682 חלקים
+Dialogue: 0,0:00:49.00,0:01:16.30,Info,,0,0,0,,{\an5\fs106\c&HFFFFFF&\fad(300,260)\move(540,457,540,429,0,380)}Icons: 11388
 Dialogue: 0,0:00:49.08,0:00:49.28,Main,,0,0,0,,‏{\c&H00D7FF&}פה {\c&HFFFFFF&}יש {\c&HFFFFFF&}לנו
+Dialogue: 0,0:00:49.09,0:01:16.30,Info,,0,0,0,,{\an5\fs106\c&HFFFFFF&\fad(300,260)\move(540,565,540,537,0,380)}Venetian Neighborhood
+Dialogue: 0,0:00:49.18,0:01:16.30,Info,,0,0,0,,{\an5\fs88\c&H00D7FF&\fad(300,260)\move(540,663,540,635,0,380)}5,682 חלקים
 Dialogue: 0,0:00:49.83,0:00:49.98,Main,,0,0,0,,‏{\c&H00D7FF&}פה {\c&HFFFFFF&}יש {\c&HFFFFFF&}לנו
 Dialogue: 0,0:00:50.47,0:00:50.66,Main,,0,0,0,,‏{\c&HFFFFFF&}פה {\c&H00D7FF&}יש {\c&HFFFFFF&}לנו
 Dialogue: 0,0:00:50.66,0:00:50.80,Main,,0,0,0,,‏{\c&HFFFFFF&}פה {\c&HFFFFFF&}יש {\c&H00D7FF&}לנו
@@ -154,7 +164,9 @@ Dialogue: 0,0:01:13.78,0:01:13.96,Main,,0,0,0,,‏{\c&HFFFFFF&}אפשר {\c&HFFF
 Dialogue: 0,0:01:13.96,0:01:14.70,Main,,0,0,0,,‏{\c&H00D7FF&}ואז {\c&HFFFFFF&}יהיה {\c&HFFFFFF&}מוזיקה
 Dialogue: 0,0:01:14.70,0:01:14.82,Main,,0,0,0,,‏{\c&HFFFFFF&}ואז {\c&H00D7FF&}יהיה {\c&HFFFFFF&}מוזיקה
 Dialogue: 0,0:01:14.82,0:01:15.36,Main,,0,0,0,,‏{\c&HFFFFFF&}ואז {\c&HFFFFFF&}יהיה {\c&H00D7FF&}מוזיקה
-Dialogue: 0,0:01:16.40,0:01:36.00,Info,,0,0,0,,Architecture: 21065\NSagrada Família\N{\fs88\c&H00D7FF&}12,060 חלקים
+Dialogue: 0,0:01:16.40,0:01:36.00,Info,,0,0,0,,{\an5\fs106\c&HFFFFFF&\fad(300,260)\move(540,457,540,429,0,380)}Architecture: 21065
+Dialogue: 0,0:01:16.49,0:01:36.00,Info,,0,0,0,,{\an5\fs106\c&HFFFFFF&\fad(300,260)\move(540,565,540,537,0,380)}Sagrada Família
+Dialogue: 0,0:01:16.58,0:01:36.00,Info,,0,0,0,,{\an5\fs88\c&H00D7FF&\fad(300,260)\move(540,663,540,635,0,380)}12,060 חלקים
 Dialogue: 0,0:01:17.06,0:01:17.42,Main,,0,0,0,,‏{\c&H00D7FF&}ופה {\c&HFFFFFF&}יש {\c&HFFFFFF&}לנו
 Dialogue: 0,0:01:17.42,0:01:17.50,Main,,0,0,0,,‏{\c&HFFFFFF&}ופה {\c&H00D7FF&}יש {\c&HFFFFFF&}לנו
 Dialogue: 0,0:01:17.50,0:01:17.66,Main,,0,0,0,,‏{\c&HFFFFFF&}ופה {\c&HFFFFFF&}יש {\c&H00D7FF&}לנו
@@ -198,7 +210,9 @@ Dialogue: 0,0:01:38.82,0:01:39.04,Main,,0,0,0,,‏{\c&H00D7FF&}כמה {\c&HFFFFF
 Dialogue: 0,0:01:39.04,0:01:39.50,Main,,0,0,0,,‏{\c&HFFFFFF&}כמה {\c&H00D7FF&}מבצעים {\c&HFFFFFF&}ממש
 Dialogue: 0,0:01:39.50,0:01:39.78,Main,,0,0,0,,‏{\c&HFFFFFF&}כמה {\c&HFFFFFF&}מבצעים {\c&H00D7FF&}ממש
 Dialogue: 0,0:01:39.78,0:01:40.12,Main,,0,0,0,,‏{\c&H00D7FF&}טובים
-Dialogue: 0,0:01:39.80,0:01:44.40,Info,,0,0,0,,Ideas: 40889\NBuild, Paint and Play GWP\N{\fs88\c&H00D7FF&}158 חלקים
+Dialogue: 0,0:01:39.80,0:01:44.40,Info,,0,0,0,,{\an5\fs106\c&HFFFFFF&\fad(300,260)\move(540,457,540,429,0,380)}Ideas: 40889
+Dialogue: 0,0:01:39.89,0:01:44.40,Info,,0,0,0,,{\an5\fs106\c&HFFFFFF&\fad(300,260)\move(540,565,540,537,0,380)}Build, Paint and Play GWP
+Dialogue: 0,0:01:39.98,0:01:44.40,Info,,0,0,0,,{\an5\fs88\c&H00D7FF&\fad(300,260)\move(540,663,540,635,0,380)}158 חלקים
 Dialogue: 0,0:01:40.12,0:01:40.80,Main,,0,0,0,,‏{\c&H00D7FF&}ומתנה {\c&HFFFFFF&}ברכישה {\c&HFFFFFF&}חדשה
 Dialogue: 0,0:01:40.80,0:01:41.68,Main,,0,0,0,,‏{\c&HFFFFFF&}ומתנה {\c&H00D7FF&}ברכישה {\c&HFFFFFF&}חדשה
 Dialogue: 0,0:01:41.68,0:01:42.12,Main,,0,0,0,,‏{\c&HFFFFFF&}ומתנה {\c&HFFFFFF&}ברכישה {\c&H00D7FF&}חדשה
@@ -243,7 +257,9 @@ Dialogue: 0,0:02:00.52,0:02:00.72,Main,,0,0,0,,‏{\c&HFFFFFF&}מהדגמים {\
 Dialogue: 0,0:02:00.72,0:02:01.04,Main,,0,0,0,,‏{\c&HFFFFFF&}מהדגמים {\c&HFFFFFF&}של {\c&H00D7FF&}דיסני
 Dialogue: 0,0:02:01.04,0:02:01.23,Main,,0,0,0,,‏{\c&H00D7FF&}וסטאר {\c&HFFFFFF&}וורס
 Dialogue: 0,0:02:01.23,0:02:01.54,Main,,0,0,0,,‏{\c&HFFFFFF&}וסטאר {\c&H00D7FF&}וורס
-Dialogue: 0,0:02:02.40,0:02:07.80,Info,,0,0,0,,Ideas: 40889\NBuild, Paint and Play GWP\N{\fs88\c&H00D7FF&}158 חלקים
+Dialogue: 0,0:02:02.40,0:02:07.80,Info,,0,0,0,,{\an5\fs106\c&HFFFFFF&\fad(300,260)\move(540,457,540,429,0,380)}Ideas: 40889
+Dialogue: 0,0:02:02.49,0:02:07.80,Info,,0,0,0,,{\an5\fs106\c&HFFFFFF&\fad(300,260)\move(540,565,540,537,0,380)}Build, Paint and Play GWP
+Dialogue: 0,0:02:02.58,0:02:07.80,Info,,0,0,0,,{\an5\fs88\c&H00D7FF&\fad(300,260)\move(540,663,540,635,0,380)}158 חלקים
 Dialogue: 0,0:02:03.36,0:02:04.00,Main,,0,0,0,,‏{\c&HFFFFFF&}זה {\c&H00D7FF&}המתנה
 Dialogue: 0,0:02:04.20,0:02:04.56,Main,,0,0,0,,‏{\c&HFFFFFF&}ומתנה {\c&H00D7FF&}ברכישה {\c&HFFFFFF&}חדש
 Dialogue: 0,0:02:04.56,0:02:05.44,Main,,0,0,0,,‏{\c&HFFFFFF&}ומתנה {\c&HFFFFFF&}ברכישה {\c&H00D7FF&}חדש

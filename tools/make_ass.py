@@ -1,4 +1,4 @@
-import json,sys,math
+import json,sys,math,os
 src,out=sys.argv[1],sys.argv[2]
 GOLD,WHITE="&H00D7FF&","&HFFFFFF&"
 segs=json.load(open(src))
@@ -89,7 +89,12 @@ INFO=[
  (122.4,127.8,"Ideas: 40889","Build, Paint and Play GWP","158 חלקים"),
 ]
 for a,b,l1,l2,l3 in INFO:
-    ev.append((a,b,"Info",f"{l1}\\N{l2}\\N{{\\fs88\\c&H00D7FF&}}{l3}"))
+    # staggered, understated entrance: fade + short upward glide per line
+    for i,(txt,cy,fs,col) in enumerate([(l1,429,106,"&HFFFFFF&"),(l2,537,106,"&HFFFFFF&"),(l3,635,88,"&H00D7FF&")]):
+        st=a+0.09*i
+        tag=f"{{\\an5\\fs{fs}\\c{col}\\fad(300,260)\\move(540,{cy+28},540,{cy},0,380)}}"
+        ev.append((st,b,"Info",tag+txt))
+json.dump([x[0] for x in INFO],open(os.path.join(os.path.dirname(os.path.abspath(src)),"info_times.json"),"w"))
 clipped=[]
 for e in ev:
     if e[2]!="Main": clipped.append(e); continue
