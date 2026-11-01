@@ -144,11 +144,9 @@ Dialogue: 0,0:01:03.22,0:01:03.52,Main,,0,0,0,,‏{\c&HFFFFFF&}תלת {\c&H00D7F
 Dialogue: 0,0:01:03.52,0:01:03.60,Main,,0,0,0,,‏{\c&H00D7FF&}זה {\c&HFFFFFF&}החלק {\c&HFFFFFF&}השני
 Dialogue: 0,0:01:03.60,0:01:03.90,Main,,0,0,0,,‏{\c&HFFFFFF&}זה {\c&H00D7FF&}החלק {\c&HFFFFFF&}השני
 Dialogue: 0,0:01:03.90,0:01:04.30,Main,,0,0,0,,‏{\c&HFFFFFF&}זה {\c&HFFFFFF&}החלק {\c&H00D7FF&}השני
-Dialogue: 0,0:01:04.62,0:01:04.76,Main,,0,0,0,,‏{\c&H00D7FF&}של {\c&HFFFFFF&}לגו {\c&HFFFFFF&}שמים
-Dialogue: 0,0:01:04.76,0:01:05.31,Main,,0,0,0,,‏{\c&HFFFFFF&}של {\c&H00D7FF&}לגו {\c&HFFFFFF&}שמים
-Dialogue: 0,0:01:05.44,0:01:05.88,Main,,0,0,0,,‏{\c&HFFFFFF&}של {\c&HFFFFFF&}לגו {\c&H00D7FF&}שמים
-Dialogue: 0,0:01:06.04,0:01:06.94,Main,,0,0,0,,‏{\c&H00D7FF&}בסטים {\c&HFFFFFF&}שלהם
-Dialogue: 0,0:01:06.94,0:01:06.94,Main,,0,0,0,,‏{\c&HFFFFFF&}בסטים {\c&H00D7FF&}שלהם
+Dialogue: 0,0:01:04.62,0:01:05.31,Main,,0,0,0,,‏{\c&H00D7FF&}שלגו {\c&HFFFFFF&}שמים {\c&HFFFFFF&}בסטים
+Dialogue: 0,0:01:05.44,0:01:06.04,Main,,0,0,0,,‏{\c&HFFFFFF&}שלגו {\c&H00D7FF&}שמים {\c&HFFFFFF&}בסטים
+Dialogue: 0,0:01:06.04,0:01:06.94,Main,,0,0,0,,‏{\c&HFFFFFF&}שלגו {\c&HFFFFFF&}שמים {\c&H00D7FF&}בסטים
 Dialogue: 0,0:01:06.94,0:01:07.41,Main,,0,0,0,,‏{\c&H00D7FF&}של {\c&HFFFFFF&}תלת {\c&HFFFFFF&}מימד
 Dialogue: 0,0:01:07.46,0:01:07.62,Main,,0,0,0,,‏{\c&HFFFFFF&}של {\c&H00D7FF&}תלת {\c&HFFFFFF&}מימד
 Dialogue: 0,0:01:07.62,0:01:08.00,Main,,0,0,0,,‏{\c&HFFFFFF&}של {\c&HFFFFFF&}תלת {\c&H00D7FF&}מימד
@@ -243,11 +241,10 @@ Dialogue: 0,0:01:57.06,0:01:57.18,Main,,0,0,0,,‏{\c&HFFFFFF&}ובנובמבר 
 Dialogue: 0,0:01:57.18,0:01:57.30,Main,,0,0,0,,‏{\c&H00D7FF&}את {\c&HFFFFFF&}המבצע {\c&HFFFFFF&}של
 Dialogue: 0,0:01:57.30,0:01:57.68,Main,,0,0,0,,‏{\c&HFFFFFF&}את {\c&H00D7FF&}המבצע {\c&HFFFFFF&}של
 Dialogue: 0,0:01:57.68,0:01:57.84,Main,,0,0,0,,‏{\c&HFFFFFF&}את {\c&HFFFFFF&}המבצע {\c&H00D7FF&}של
-Dialogue: 0,0:01:57.84,0:01:58.20,Main,,0,0,0,,‏{\c&H00D7FF&}50 {\c&HFFFFFF&}% {\c&HFFFFFF&}הנחה
-Dialogue: 0,0:01:58.20,0:01:58.48,Main,,0,0,0,,‏{\c&HFFFFFF&}50 {\c&H00D7FF&}% {\c&HFFFFFF&}הנחה
-Dialogue: 0,0:01:58.48,0:01:58.72,Main,,0,0,0,,‏{\c&HFFFFFF&}50 {\c&HFFFFFF&}% {\c&H00D7FF&}הנחה
-Dialogue: 0,0:01:58.72,0:01:59.06,Main,,0,0,0,,‏{\c&H00D7FF&}לפריט {\c&HFFFFFF&}השני
-Dialogue: 0,0:01:59.06,0:01:59.50,Main,,0,0,0,,‏{\c&HFFFFFF&}לפריט {\c&H00D7FF&}השני
+Dialogue: 0,0:01:57.84,0:01:58.48,Main,,0,0,0,,‏{\c&H00D7FF&}50% {\c&HFFFFFF&}הנחה {\c&HFFFFFF&}לפריט
+Dialogue: 0,0:01:58.48,0:01:58.72,Main,,0,0,0,,‏{\c&HFFFFFF&}50% {\c&H00D7FF&}הנחה {\c&HFFFFFF&}לפריט
+Dialogue: 0,0:01:58.72,0:01:59.06,Main,,0,0,0,,‏{\c&HFFFFFF&}50% {\c&HFFFFFF&}הנחה {\c&H00D7FF&}לפריט
+Dialogue: 0,0:01:59.06,0:01:59.50,Main,,0,0,0,,‏{\c&H00D7FF&}השני
 Dialogue: 0,0:02:00.20,0:02:00.56,Main,,0,0,0,,‏{\c&H00D7FF&}מהדגמים {\c&HFFFFFF&}של {\c&HFFFFFF&}דיסני
 Dialogue: 0,0:02:00.56,0:02:00.74,Main,,0,0,0,,‏{\c&HFFFFFF&}מהדגמים {\c&H00D7FF&}של {\c&HFFFFFF&}דיסני
 Dialogue: 0,0:02:00.74,0:02:01.04,Main,,0,0,0,,‏{\c&HFFFFFF&}מהדגמים {\c&HFFFFFF&}של {\c&H00D7FF&}דיסני

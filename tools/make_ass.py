@@ -47,6 +47,14 @@ if os.path.exists(al):
         for t,x in zip(m,am):
             if abs(x[1]-t[1])<=0.5 and abs(x[2]-t[2])<=1.0 and x[1]>=prev_end-0.05: t[1],t[2]=x[1],x[2]
             prev_end=t[2]
+# text merges: "50 %" -> "50%", "של לגו" -> "שלגו"
+for mi,m in enumerate(fixed):
+    o=[]
+    for t in m:
+        if o and t[0]=="%" : o[-1][0]+="%"; o[-1][2]=t[2]; continue
+        if o and o[-1][0]=="של" and t[0]=="לגו" and 60<o[-1][1]<70: o[-1][0]="שלגו"; o[-1][2]=t[2]; continue
+        o.append(t)
+    fixed[mi]=o
 for m in fixed:
     for k,t in enumerate(m):
         if t[2]<=t[1]: t[2]=t[1]+0.2
@@ -104,6 +112,7 @@ ev=sorted(clipped,key=lambda e:(e[0],e[2]))
 main=[i for i,e in enumerate(ev) if e[2]=="Main"]
 for x,y in zip(main,main[1:]):
     if ev[x][1]>ev[y][0]: ev[x]=(ev[x][0],ev[y][0],ev[x][2],ev[x][3])
+ev=[e for e in ev if e[2]!='Main' or e[1]-e[0]>=0.03]
 hdr="""[Script Info]
 ScriptType: v4.00+
 PlayResX: 1080
