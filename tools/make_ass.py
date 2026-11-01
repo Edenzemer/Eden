@@ -75,16 +75,39 @@ for m in fixed:
             m[k][1]=max(m[k][1],m[k-1][2])
             if m[k][2]<=m[k][1]: m[k][2]=m[k][1]+0.12
 def chunks(m):
-    n=len(m); g=math.ceil(n/3); size=math.ceil(n/g); return [m[i:i+size] for i in range(0,n,size)]
+    n=len(m); g=math.ceil(n/3); base,extra=divmod(n,g); out=[]; i=0
+    for k in range(g):
+        sz=base+(1 if k<extra else 0); out.append(m[i:i+sz]); i+=sz
+    return out
 def ts(t):
     t=max(t,0); h=int(t//3600); mi=int(t%3600//60); s=t%60; return f"{h}:{mi:02d}:{s:05.2f}"
 ev=[]
-for m in fixed:
-    for line in chunks(m):
-        for k,(w,a,b,_) in enumerate(line):
-            end=min(line[k+1][1],b+0.35) if k+1<len(line) else b+0.12
-            txt=" ".join(f"{{\\c{GOLD if j==k else WHITE}}}{x[0]}" for j,x in enumerate(line))
-            ev.append((a,end,"Main","‏"+txt))
+def in_speech(t):
+    for x,y in mg:
+        if x-0.05<=t<=y+0.05: return (x,y)
+    return None
+merged=[]; i=0
+while i<len(fixed):
+    m=fixed[i]
+    if len(m)==1 and i+1<len(fixed) and fixed[i+1][0][1]-m[0][2]<0.7:
+        merged.append(m+fixed[i+1]); i+=2
+    else: merged.append(m); i+=1
+lines=[]
+for m in merged:
+    for line in chunks(m): lines.append(line)
+for line in lines:
+    st=line[0][1]; en=line[-1][2]+0.12
+    iv=in_speech(line[-1][1])
+    if iv: en=min(en,iv[1]+0.12)
+    iv0=in_speech(line[0][2])
+    if iv0 and st<iv0[0]: st=iv0[0]            # never show text before speech starts
+    line[0][1]=st
+    for k,(w,a,b,_) in enumerate(line):
+        s0=line[k][1] if k else st
+        e0=line[k+1][1] if k+1<len(line) else en
+        if e0<=s0: continue
+        txt=" ".join(f"{{\\c{GOLD if j==k else WHITE}}}{x[0]}" for j,x in enumerate(line))
+        ev.append((s0,e0,"Main","\u200f"+txt))
 # ---- set info: (start,end) snapped to real scene cuts, each shown ~6s then leaves
 INFO=[
  (12.24,18.8,"Icons: 11388","Venetian Neighborhood","5,682 חלקים"),
@@ -102,12 +125,7 @@ for a,b,l1,l2,l3 in INFO:
         tag=f"{{\\an5\\fs{fs}\\c{col}\\fad(300,260)\\move(540,{cy+28},540,{cy},0,380)}}"
         ev.append((a+0.09*i,b,"Info",tag+txt))
 json.dump([x[0] for x in INFO],open(os.path.join(here,"info_times.json"),"w"))
-clipped=[]
-for e in ev:
-    if e[2]!="Main": clipped.append(e); continue
-    for a,b in mg:
-        lo,hi=max(e[0],a),min(e[1],b)
-        if hi-lo>=0.04: clipped.append((lo,hi,e[2],e[3]))
+clipped=list(ev)
 ev=sorted(clipped,key=lambda e:(e[0],e[2]))
 main=[i for i,e in enumerate(ev) if e[2]=="Main"]
 for x,y in zip(main,main[1:]):
