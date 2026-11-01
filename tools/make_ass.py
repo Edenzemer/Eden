@@ -78,10 +78,12 @@ for m in fixed:
             ev.append((a,end,"Main",""+"‏"+txt))
 # set info (box visible only)  (start,end,[lines])
 INFO=[
- (37.6,42.6,"Icons: 11390","Dragon Ball: Shenron & Goku","1,764 חלקים"),
- (43.2,49.5,"Botanicals: 10371","Cozy Plants","248 חלקים"),
- (49.6,75.6,"Icons: 11388","Venetian Neighborhood","5,682 חלקים"),
- (76.3,96.0,"Architecture: 21065","Sagrada Família","12,060 חלקים"),
+ (12.0,20.4,"Icons: 11388","Venetian Neighborhood","5,682 חלקים"),
+ (20.4,23.6,"Icons: 40898","Venetian Water Taxi GWP","322 חלקים"),
+ (24.8,42.6,"Icons: 11390","Dragon Ball: Shenron & Goku","1,764 חלקים"),
+ (42.7,49.0,"Botanicals: 10371","Cozy Plants","248 חלקים"),
+ (49.0,76.3,"Icons: 11388","Venetian Neighborhood","5,682 חלקים"),
+ (76.4,96.0,"Architecture: 21065","Sagrada Família","12,060 חלקים"),
  (99.8,104.4,"Ideas: 40889","Build, Paint and Play GWP","158 חלקים"),
  (104.4,110.0,"Icons: 40898","Venetian Water Taxi GWP","322 חלקים"),
  (122.4,127.8,"Ideas: 40889","Build, Paint and Play GWP","158 חלקים"),
