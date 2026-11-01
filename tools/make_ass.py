@@ -70,7 +70,7 @@ INFO=[
  (122.4,127.8,"Ideas: 40889","Build, Paint and Play GWP","158 חלקים"),
 ]
 for a,b,l1,l2,l3 in INFO:
-    ev.append((a,b,"Info",f"{l1}\\N{l2}\\N{{\\fs72\\c&H00D7FF&}}{l3}"))
+    ev.append((a,b,"Info",f"{l1}\\N{l2}\\N{{\\fs88\\c&H00D7FF&}}{l3}"))
 ev.sort(key=lambda e:(e[0],e[2]))
 main=[i for i,e in enumerate(ev) if e[2]=="Main"]
 for x,y in zip(main,main[1:]):
@@ -85,7 +85,7 @@ ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Main,Heebo Black,96,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,6,3,2,70,70,520,-1
-Style: Info,Heebo Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,7,2,8,20,20,150,-1
+Style: Info,Heebo Black,106,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,8,2,8,10,10,130,-1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
