@@ -61,29 +61,31 @@ for m in fixed:
             ev.append((a,end,"Main",""+"‏"+txt))
 # set info (box visible only)  (start,end,[lines])
 INFO=[
- (37.6,42.6,["Icons: 11390  Dragon Ball: Shenron & Goku","1,764 חלקים"]),
- (43.2,49.5,["Botanicals: 10371  Cozy Plants","248 חלקים"]),
- (49.6,75.6,["Icons: 11388  Venetian Neighborhood","5,682 חלקים"]),
- (76.3,96.0,["Architecture: 21065  Sagrada Família","12,060 חלקים"]),
- (100.0,105.3,["Ideas: 40889  Build, Paint and Play GWP","158 חלקים","Icons: 40898  Venetian Water Taxi GWP","322 חלקים"]),
- (122.4,127.8,["Ideas: 40889  Build, Paint and Play GWP","158 חלקים"]),
+ (37.6,42.6,"Icons: 11390","Dragon Ball: Shenron & Goku","1,764 חלקים"),
+ (43.2,49.5,"Botanicals: 10371","Cozy Plants","248 חלקים"),
+ (49.6,75.6,"Icons: 11388","Venetian Neighborhood","5,682 חלקים"),
+ (76.3,96.0,"Architecture: 21065","Sagrada Família","12,060 חלקים"),
+ (99.8,104.4,"Ideas: 40889","Build, Paint and Play GWP","158 חלקים"),
+ (104.4,110.0,"Icons: 40898","Venetian Water Taxi GWP","322 חלקים"),
+ (122.4,127.8,"Ideas: 40889","Build, Paint and Play GWP","158 חלקים"),
 ]
-for a,b,l in INFO:
-    if len(l)==2: t=f"{l[0]}\\N{{\\fs48\\c&H00D7FF&}}{l[1]}"
-    else: t=f"{l[0]}\\N{{\\fs48\\c&H00D7FF&}}{l[1]}\\N{{\\fs58\\c&HFFFFFF&}}{l[2]}\\N{{\\fs48\\c&H00D7FF&}}{l[3]}"
-    ev.append((a,b,"Info",t))
+for a,b,l1,l2,l3 in INFO:
+    ev.append((a,b,"Info",f"{l1}\\N{l2}\\N{{\\fs72\\c&H00D7FF&}}{l3}"))
 ev.sort(key=lambda e:(e[0],e[2]))
+main=[i for i,e in enumerate(ev) if e[2]=="Main"]
+for x,y in zip(main,main[1:]):
+    if ev[x][1]>ev[y][0]: ev[x]=(ev[x][0],ev[y][0],ev[x][2],ev[x][3])
 hdr="""[Script Info]
 ScriptType: v4.00+
 PlayResX: 1080
 PlayResY: 1920
-WrapStyle: 0
+WrapStyle: 2
 ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Main,Heebo Black,96,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,6,3,2,70,70,520,-1
-Style: Info,Heebo Black,58,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,5,2,8,40,40,230,-1
+Style: Info,Heebo Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,7,2,8,20,20,150,-1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
