@@ -25,8 +25,7 @@ for m in seq:
         if w=="ה" and i+1<len(m) and "cozy" in m[i+1][0].lower():
             c=m[i+1]; p=m[i+2]; i+=3
             o+= [["Cozy",c[1],c[2]],["Plants",p[1],p[2]]]; continue
-        if w=="ה-gift": w="gift"
-        elif w=="repurchase": o+=split2([w,a,b],"with","purchase"); i+=1; continue
+        if w=="ה-gift": o.append(["GWP",a,m[i+1][2]]); i+=2; continue
         elif w.startswith("צ'נרון"): w="שנרון"
         elif w=="מטחק": o+=split2([w,a,b],"דרגון","בול"); i+=1; continue
         elif w=="113900": w="11390"; b=a+1.0
@@ -87,7 +86,6 @@ INFO=[
  (49.0,76.3,"Icons: 11388","Venetian Neighborhood","5,682 חלקים"),
  (76.4,96.0,"Architecture: 21065","Sagrada Família","12,060 חלקים"),
  (99.8,104.4,"Ideas: 40889","Build, Paint and Play GWP","158 חלקים"),
- (104.4,110.0,"Icons: 40898","Venetian Water Taxi GWP","322 חלקים"),
  (122.4,127.8,"Ideas: 40889","Build, Paint and Play GWP","158 חלקים"),
 ]
 for a,b,l1,l2,l3 in INFO:
