@@ -12,8 +12,8 @@ Style: Info,Heebo Black,106,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.24,Main,,0,0,0,,‏{\c&H00D7FF&}טוב {\c&HFFFFFF&}אז {\c&HFFFFFF&}כמו
-Dialogue: 0,0:00:00.24,0:00:00.34,Main,,0,0,0,,‏{\c&HFFFFFF&}טוב {\c&H00D7FF&}אז {\c&HFFFFFF&}כמו
+Dialogue: 0,0:00:00.16,0:00:00.28,Main,,0,0,0,,‏{\c&H00D7FF&}טוב {\c&HFFFFFF&}אז {\c&HFFFFFF&}כמו
+Dialogue: 0,0:00:00.28,0:00:00.34,Main,,0,0,0,,‏{\c&HFFFFFF&}טוב {\c&H00D7FF&}אז {\c&HFFFFFF&}כמו
 Dialogue: 0,0:00:00.34,0:00:00.50,Main,,0,0,0,,‏{\c&HFFFFFF&}טוב {\c&HFFFFFF&}אז {\c&H00D7FF&}כמו
 Dialogue: 0,0:00:00.50,0:00:00.64,Main,,0,0,0,,‏{\c&H00D7FF&}כל {\c&HFFFFFF&}חודש {\c&HFFFFFF&}יצאו
 Dialogue: 0,0:00:00.64,0:00:01.04,Main,,0,0,0,,‏{\c&HFFFFFF&}כל {\c&H00D7FF&}חודש {\c&HFFFFFF&}יצאו
@@ -36,8 +36,8 @@ Dialogue: 0,0:00:06.36,0:00:06.50,Main,,0,0,0,,‏{\c&HFFFFFF&}ואני {\c&H00D
 Dialogue: 0,0:00:06.50,0:00:06.80,Main,,0,0,0,,‏{\c&HFFFFFF&}ואני {\c&HFFFFFF&}אראה {\c&H00D7FF&}לכם
 Dialogue: 0,0:00:06.80,0:00:07.14,Main,,0,0,0,,‏{\c&H00D7FF&}מה {\c&HFFFFFF&}יצא
 Dialogue: 0,0:00:07.14,0:00:07.76,Main,,0,0,0,,‏{\c&HFFFFFF&}מה {\c&H00D7FF&}יצא
-Dialogue: 0,0:00:12.08,0:00:12.44,Main,,0,0,0,,‏{\c&H00D7FF&}טוב {\c&HFFFFFF&}אז {\c&HFFFFFF&}פה
-Dialogue: 0,0:00:12.44,0:00:12.64,Main,,0,0,0,,‏{\c&HFFFFFF&}טוב {\c&H00D7FF&}אז {\c&HFFFFFF&}פה
+Dialogue: 0,0:00:12.45,0:00:12.57,Main,,0,0,0,,‏{\c&H00D7FF&}טוב {\c&HFFFFFF&}אז {\c&HFFFFFF&}פה
+Dialogue: 0,0:00:12.57,0:00:12.64,Main,,0,0,0,,‏{\c&HFFFFFF&}טוב {\c&H00D7FF&}אז {\c&HFFFFFF&}פה
 Dialogue: 0,0:00:12.64,0:00:12.78,Main,,0,0,0,,‏{\c&HFFFFFF&}טוב {\c&HFFFFFF&}אז {\c&H00D7FF&}פה
 Dialogue: 0,0:00:12.78,0:00:13.26,Main,,0,0,0,,‏{\c&H00D7FF&}בכניסה {\c&HFFFFFF&}יש {\c&HFFFFFF&}לנו
 Dialogue: 0,0:00:13.26,0:00:13.52,Main,,0,0,0,,‏{\c&HFFFFFF&}בכניסה {\c&H00D7FF&}יש {\c&HFFFFFF&}לנו
@@ -53,36 +53,37 @@ Dialogue: 0,0:00:16.68,0:00:18.34,Main,,0,0,0,,‏{\c&HFFFFFF&}סט {\c&HFFFFFF&
 Dialogue: 0,0:00:18.34,0:00:19.28,Main,,0,0,0,,‏{\c&H00D7FF&}תראו {\c&HFFFFFF&}איזה {\c&HFFFFFF&}מטורף
 Dialogue: 0,0:00:19.28,0:00:19.56,Main,,0,0,0,,‏{\c&HFFFFFF&}תראו {\c&H00D7FF&}איזה {\c&HFFFFFF&}מטורף
 Dialogue: 0,0:00:19.56,0:00:20.08,Main,,0,0,0,,‏{\c&HFFFFFF&}תראו {\c&HFFFFFF&}איזה {\c&H00D7FF&}מטורף
-Dialogue: 0,0:00:20.08,0:00:20.72,Main,,0,0,0,,‏{\c&H00D7FF&}יש {\c&HFFFFFF&}לנו {\c&HFFFFFF&}פה
-Dialogue: 0,0:00:20.72,0:00:20.86,Main,,0,0,0,,‏{\c&HFFFFFF&}יש {\c&H00D7FF&}לנו {\c&HFFFFFF&}פה
+Dialogue: 0,0:00:20.08,0:00:20.32,Main,,0,0,0,,‏{\c&H00D7FF&}יש {\c&HFFFFFF&}לנו {\c&HFFFFFF&}פה
+Dialogue: 0,0:00:20.74,0:00:20.86,Main,,0,0,0,,‏{\c&HFFFFFF&}יש {\c&H00D7FF&}לנו {\c&HFFFFFF&}פה
 Dialogue: 0,0:00:20.86,0:00:21.04,Main,,0,0,0,,‏{\c&HFFFFFF&}יש {\c&HFFFFFF&}לנו {\c&H00D7FF&}פה
 Dialogue: 0,0:00:21.04,0:00:21.20,Main,,0,0,0,,‏{\c&H00D7FF&}גם {\c&HFFFFFF&}את {\c&HFFFFFF&}ה-gift
 Dialogue: 0,0:00:21.20,0:00:21.38,Main,,0,0,0,,‏{\c&HFFFFFF&}גם {\c&H00D7FF&}את {\c&HFFFFFF&}ה-gift
 Dialogue: 0,0:00:21.38,0:00:21.86,Main,,0,0,0,,‏{\c&HFFFFFF&}גם {\c&HFFFFFF&}את {\c&H00D7FF&}ה-gift
 Dialogue: 0,0:00:21.86,0:00:22.48,Main,,0,0,0,,‏{\c&H00D7FF&}repurchase
-Dialogue: 0,0:00:23.62,0:00:24.30,Main,,0,0,0,,‏{\c&H00D7FF&}פשוט {\c&HFFFFFF&}וואו
+Dialogue: 0,0:00:24.07,0:00:24.30,Main,,0,0,0,,‏{\c&H00D7FF&}פשוט {\c&HFFFFFF&}וואו
 Dialogue: 0,0:00:24.30,0:00:24.94,Main,,0,0,0,,‏{\c&HFFFFFF&}פשוט {\c&H00D7FF&}וואו
-Dialogue: 0,0:00:24.94,0:00:26.23,Main,,0,0,0,,‏{\c&H00D7FF&}פה {\c&HFFFFFF&}יש {\c&HFFFFFF&}לנו
-Dialogue: 0,0:00:27.48,0:00:27.70,Main,,0,0,0,,‏{\c&HFFFFFF&}פה {\c&H00D7FF&}יש {\c&HFFFFFF&}לנו
+Dialogue: 0,0:00:24.94,0:00:25.24,Main,,0,0,0,,‏{\c&H00D7FF&}פה {\c&HFFFFFF&}יש {\c&HFFFFFF&}לנו
+Dialogue: 0,0:00:27.52,0:00:27.70,Main,,0,0,0,,‏{\c&HFFFFFF&}פה {\c&H00D7FF&}יש {\c&HFFFFFF&}לנו
 Dialogue: 0,0:00:27.70,0:00:27.92,Main,,0,0,0,,‏{\c&HFFFFFF&}פה {\c&HFFFFFF&}יש {\c&H00D7FF&}לנו
 Dialogue: 0,0:00:27.92,0:00:28.96,Main,,0,0,0,,‏{\c&H00D7FF&}שנרון {\c&HFFFFFF&}דרגון {\c&HFFFFFF&}בול
 Dialogue: 0,0:00:28.96,0:00:29.36,Main,,0,0,0,,‏{\c&HFFFFFF&}שנרון {\c&H00D7FF&}דרגון {\c&HFFFFFF&}בול
 Dialogue: 0,0:00:29.36,0:00:29.76,Main,,0,0,0,,‏{\c&HFFFFFF&}שנרון {\c&HFFFFFF&}דרגון {\c&H00D7FF&}בול
-Dialogue: 0,0:00:29.76,0:00:30.74,Main,,0,0,0,,‏{\c&H00D7FF&}סט {\c&HFFFFFF&}מספר {\c&HFFFFFF&}11390
+Dialogue: 0,0:00:29.76,0:00:30.01,Main,,0,0,0,,‏{\c&H00D7FF&}סט {\c&HFFFFFF&}מספר {\c&HFFFFFF&}11390
+Dialogue: 0,0:00:30.63,0:00:30.74,Main,,0,0,0,,‏{\c&H00D7FF&}סט {\c&HFFFFFF&}מספר {\c&HFFFFFF&}11390
 Dialogue: 0,0:00:30.74,0:00:31.26,Main,,0,0,0,,‏{\c&HFFFFFF&}סט {\c&H00D7FF&}מספר {\c&HFFFFFF&}11390
 Dialogue: 0,0:00:31.26,0:00:32.38,Main,,0,0,0,,‏{\c&HFFFFFF&}סט {\c&HFFFFFF&}מספר {\c&H00D7FF&}11390
 Dialogue: 0,0:00:33.36,0:00:34.58,Main,,0,0,0,,‏{\c&H00D7FF&}תראו {\c&HFFFFFF&}איזה {\c&HFFFFFF&}מטורף
 Dialogue: 0,0:00:34.58,0:00:35.00,Main,,0,0,0,,‏{\c&HFFFFFF&}תראו {\c&H00D7FF&}איזה {\c&HFFFFFF&}מטורף
 Dialogue: 0,0:00:35.00,0:00:35.86,Main,,0,0,0,,‏{\c&HFFFFFF&}תראו {\c&HFFFFFF&}איזה {\c&H00D7FF&}מטורף
 Dialogue: 0,0:00:37.60,0:00:42.60,Info,,0,0,0,,Icons: 11390\NDragon Ball: Shenron & Goku\N{\fs88\c&H00D7FF&}1,764 חלקים
-Dialogue: 0,0:00:37.84,0:00:38.60,Main,,0,0,0,,‏{\c&H00D7FF&}וככה {\c&HFFFFFF&}הקופסה {\c&HFFFFFF&}של
+Dialogue: 0,0:00:38.02,0:00:38.60,Main,,0,0,0,,‏{\c&H00D7FF&}וככה {\c&HFFFFFF&}הקופסה {\c&HFFFFFF&}של
 Dialogue: 0,0:00:38.60,0:00:38.98,Main,,0,0,0,,‏{\c&HFFFFFF&}וככה {\c&H00D7FF&}הקופסה {\c&HFFFFFF&}של
 Dialogue: 0,0:00:38.98,0:00:39.22,Main,,0,0,0,,‏{\c&HFFFFFF&}וככה {\c&HFFFFFF&}הקופסה {\c&H00D7FF&}של
 Dialogue: 0,0:00:39.22,0:00:39.74,Main,,0,0,0,,‏{\c&H00D7FF&}שנרון {\c&HFFFFFF&}נראית
 Dialogue: 0,0:00:39.74,0:00:40.32,Main,,0,0,0,,‏{\c&HFFFFFF&}שנרון {\c&H00D7FF&}נראית
-Dialogue: 0,0:00:40.32,0:00:41.42,Main,,0,0,0,,‏{\c&H00D7FF&}פשוט {\c&HFFFFFF&}משוגע
+Dialogue: 0,0:00:40.32,0:00:40.67,Main,,0,0,0,,‏{\c&H00D7FF&}פשוט {\c&HFFFFFF&}משוגע
+Dialogue: 0,0:00:41.32,0:00:41.42,Main,,0,0,0,,‏{\c&H00D7FF&}פשוט {\c&HFFFFFF&}משוגע
 Dialogue: 0,0:00:41.42,0:00:42.00,Main,,0,0,0,,‏{\c&HFFFFFF&}פשוט {\c&H00D7FF&}משוגע
-Dialogue: 0,0:00:42.76,0:00:43.52,Main,,0,0,0,,‏{\c&H00D7FF&}פה {\c&HFFFFFF&}יש {\c&HFFFFFF&}לנו
 Dialogue: 0,0:00:43.20,0:00:49.50,Info,,0,0,0,,Botanicals: 10371\NCozy Plants\N{\fs88\c&H00D7FF&}248 חלקים
 Dialogue: 0,0:00:43.52,0:00:43.66,Main,,0,0,0,,‏{\c&HFFFFFF&}פה {\c&H00D7FF&}יש {\c&HFFFFFF&}לנו
 Dialogue: 0,0:00:43.66,0:00:43.84,Main,,0,0,0,,‏{\c&HFFFFFF&}פה {\c&HFFFFFF&}יש {\c&H00D7FF&}לנו
@@ -93,20 +94,23 @@ Dialogue: 0,0:00:44.82,0:00:45.58,Main,,0,0,0,,‏{\c&H00D7FF&}החדש
 Dialogue: 0,0:00:45.58,0:00:46.04,Main,,0,0,0,,‏{\c&H00D7FF&}סט {\c&HFFFFFF&}מספר {\c&HFFFFFF&}10371
 Dialogue: 0,0:00:46.04,0:00:46.34,Main,,0,0,0,,‏{\c&HFFFFFF&}סט {\c&H00D7FF&}מספר {\c&HFFFFFF&}10371
 Dialogue: 0,0:00:46.34,0:00:47.88,Main,,0,0,0,,‏{\c&HFFFFFF&}סט {\c&HFFFFFF&}מספר {\c&H00D7FF&}10371
-Dialogue: 0,0:00:47.88,0:00:49.08,Main,,0,0,0,,‏{\c&H00D7FF&}חמוד
-Dialogue: 0,0:00:49.08,0:00:50.44,Main,,0,0,0,,‏{\c&H00D7FF&}פה {\c&HFFFFFF&}יש {\c&HFFFFFF&}לנו
+Dialogue: 0,0:00:47.88,0:00:48.35,Main,,0,0,0,,‏{\c&H00D7FF&}חמוד
+Dialogue: 0,0:00:48.80,0:00:49.08,Main,,0,0,0,,‏{\c&H00D7FF&}חמוד
+Dialogue: 0,0:00:49.08,0:00:49.28,Main,,0,0,0,,‏{\c&H00D7FF&}פה {\c&HFFFFFF&}יש {\c&HFFFFFF&}לנו
 Dialogue: 0,0:00:49.60,0:01:15.60,Info,,0,0,0,,Icons: 11388\NVenetian Neighborhood\N{\fs88\c&H00D7FF&}5,682 חלקים
-Dialogue: 0,0:00:50.44,0:00:50.66,Main,,0,0,0,,‏{\c&HFFFFFF&}פה {\c&H00D7FF&}יש {\c&HFFFFFF&}לנו
+Dialogue: 0,0:00:49.83,0:00:49.98,Main,,0,0,0,,‏{\c&H00D7FF&}פה {\c&HFFFFFF&}יש {\c&HFFFFFF&}לנו
+Dialogue: 0,0:00:50.47,0:00:50.66,Main,,0,0,0,,‏{\c&HFFFFFF&}פה {\c&H00D7FF&}יש {\c&HFFFFFF&}לנו
 Dialogue: 0,0:00:50.66,0:00:50.80,Main,,0,0,0,,‏{\c&HFFFFFF&}פה {\c&HFFFFFF&}יש {\c&H00D7FF&}לנו
 Dialogue: 0,0:00:50.80,0:00:50.92,Main,,0,0,0,,‏{\c&H00D7FF&}את {\c&HFFFFFF&}הקופסה {\c&HFFFFFF&}של
 Dialogue: 0,0:00:50.92,0:00:51.50,Main,,0,0,0,,‏{\c&HFFFFFF&}את {\c&H00D7FF&}הקופסה {\c&HFFFFFF&}של
 Dialogue: 0,0:00:51.50,0:00:51.74,Main,,0,0,0,,‏{\c&HFFFFFF&}את {\c&HFFFFFF&}הקופסה {\c&H00D7FF&}של
 Dialogue: 0,0:00:51.74,0:00:52.30,Main,,0,0,0,,‏{\c&H00D7FF&}השכונה {\c&HFFFFFF&}מוונציה
 Dialogue: 0,0:00:52.30,0:00:52.94,Main,,0,0,0,,‏{\c&HFFFFFF&}השכונה {\c&H00D7FF&}מוונציה
-Dialogue: 0,0:00:52.94,0:00:53.98,Main,,0,0,0,,‏{\c&H00D7FF&}תראו {\c&HFFFFFF&}איזה {\c&HFFFFFF&}מטורף
+Dialogue: 0,0:00:52.94,0:00:53.31,Main,,0,0,0,,‏{\c&H00D7FF&}תראו {\c&HFFFFFF&}איזה {\c&HFFFFFF&}מטורף
+Dialogue: 0,0:00:53.76,0:00:53.98,Main,,0,0,0,,‏{\c&H00D7FF&}תראו {\c&HFFFFFF&}איזה {\c&HFFFFFF&}מטורף
 Dialogue: 0,0:00:53.98,0:00:54.44,Main,,0,0,0,,‏{\c&HFFFFFF&}תראו {\c&H00D7FF&}איזה {\c&HFFFFFF&}מטורף
 Dialogue: 0,0:00:54.44,0:00:55.30,Main,,0,0,0,,‏{\c&HFFFFFF&}תראו {\c&HFFFFFF&}איזה {\c&H00D7FF&}מטורף
-Dialogue: 0,0:00:56.44,0:00:57.20,Main,,0,0,0,,‏{\c&H00D7FF&}ככה {\c&HFFFFFF&}הקופסה {\c&HFFFFFF&}נראית
+Dialogue: 0,0:00:57.00,0:00:57.20,Main,,0,0,0,,‏{\c&H00D7FF&}ככה {\c&HFFFFFF&}הקופסה {\c&HFFFFFF&}נראית
 Dialogue: 0,0:00:57.20,0:00:57.46,Main,,0,0,0,,‏{\c&HFFFFFF&}ככה {\c&H00D7FF&}הקופסה {\c&HFFFFFF&}נראית
 Dialogue: 0,0:00:57.46,0:00:57.66,Main,,0,0,0,,‏{\c&HFFFFFF&}ככה {\c&HFFFFFF&}הקופסה {\c&H00D7FF&}נראית
 Dialogue: 0,0:00:57.66,0:00:58.06,Main,,0,0,0,,‏{\c&H00D7FF&}מאחורה {\c&HFFFFFF&}ואני {\c&HFFFFFF&}רוצה
@@ -150,7 +154,7 @@ Dialogue: 0,0:01:13.96,0:01:14.70,Main,,0,0,0,,‏{\c&H00D7FF&}ואז {\c&HFFFFF
 Dialogue: 0,0:01:14.70,0:01:14.82,Main,,0,0,0,,‏{\c&HFFFFFF&}ואז {\c&H00D7FF&}יהיה {\c&HFFFFFF&}מוזיקה
 Dialogue: 0,0:01:14.82,0:01:15.36,Main,,0,0,0,,‏{\c&HFFFFFF&}ואז {\c&HFFFFFF&}יהיה {\c&H00D7FF&}מוזיקה
 Dialogue: 0,0:01:16.30,0:01:36.00,Info,,0,0,0,,Architecture: 21065\NSagrada Família\N{\fs88\c&H00D7FF&}12,060 חלקים
-Dialogue: 0,0:01:16.42,0:01:17.42,Main,,0,0,0,,‏{\c&H00D7FF&}ופה {\c&HFFFFFF&}יש {\c&HFFFFFF&}לנו
+Dialogue: 0,0:01:17.06,0:01:17.42,Main,,0,0,0,,‏{\c&H00D7FF&}ופה {\c&HFFFFFF&}יש {\c&HFFFFFF&}לנו
 Dialogue: 0,0:01:17.42,0:01:17.50,Main,,0,0,0,,‏{\c&HFFFFFF&}ופה {\c&H00D7FF&}יש {\c&HFFFFFF&}לנו
 Dialogue: 0,0:01:17.50,0:01:17.66,Main,,0,0,0,,‏{\c&HFFFFFF&}ופה {\c&HFFFFFF&}יש {\c&H00D7FF&}לנו
 Dialogue: 0,0:01:17.66,0:01:18.00,Main,,0,0,0,,‏{\c&H00D7FF&}את {\c&HFFFFFF&}המאסטרפיס
@@ -166,8 +170,10 @@ Dialogue: 0,0:01:23.38,0:01:23.94,Main,,0,0,0,,‏{\c&HFFFFFF&}זה {\c&HFFFFFF&
 Dialogue: 0,0:01:23.94,0:01:24.44,Main,,0,0,0,,‏{\c&H00D7FF&}עם {\c&HFFFFFF&}12,060 {\c&HFFFFFF&}חלקים
 Dialogue: 0,0:01:24.44,0:01:25.92,Main,,0,0,0,,‏{\c&HFFFFFF&}עם {\c&H00D7FF&}12,060 {\c&HFFFFFF&}חלקים
 Dialogue: 0,0:01:25.92,0:01:26.64,Main,,0,0,0,,‏{\c&HFFFFFF&}עם {\c&HFFFFFF&}12,060 {\c&H00D7FF&}חלקים
-Dialogue: 0,0:01:26.64,0:01:27.60,Main,,0,0,0,,‏{\c&H00D7FF&}וואו
-Dialogue: 0,0:01:27.60,0:01:28.64,Main,,0,0,0,,‏{\c&H00D7FF&}ככה {\c&HFFFFFF&}הקופסה
+Dialogue: 0,0:01:26.64,0:01:26.81,Main,,0,0,0,,‏{\c&H00D7FF&}וואו
+Dialogue: 0,0:01:27.46,0:01:27.60,Main,,0,0,0,,‏{\c&H00D7FF&}וואו
+Dialogue: 0,0:01:27.60,0:01:27.87,Main,,0,0,0,,‏{\c&H00D7FF&}ככה {\c&HFFFFFF&}הקופסה
+Dialogue: 0,0:01:28.39,0:01:28.64,Main,,0,0,0,,‏{\c&H00D7FF&}ככה {\c&HFFFFFF&}הקופסה
 Dialogue: 0,0:01:28.64,0:01:29.00,Main,,0,0,0,,‏{\c&HFFFFFF&}ככה {\c&H00D7FF&}הקופסה
 Dialogue: 0,0:01:29.00,0:01:29.32,Main,,0,0,0,,‏{\c&H00D7FF&}נראית {\c&HFFFFFF&}מאחורה
 Dialogue: 0,0:01:29.32,0:01:30.02,Main,,0,0,0,,‏{\c&HFFFFFF&}נראית {\c&H00D7FF&}מאחורה
@@ -182,9 +188,9 @@ Dialogue: 0,0:01:33.12,0:01:33.52,Main,,0,0,0,,‏{\c&HFFFFFF&}62 {\c&HFFFFFF&}�
 Dialogue: 0,0:01:33.52,0:01:33.98,Main,,0,0,0,,‏{\c&H00D7FF&}ו-47 {\c&HFFFFFF&}סנטימטר {\c&HFFFFFF&}לרוחב
 Dialogue: 0,0:01:33.98,0:01:34.18,Main,,0,0,0,,‏{\c&HFFFFFF&}ו-47 {\c&H00D7FF&}סנטימטר {\c&HFFFFFF&}לרוחב
 Dialogue: 0,0:01:34.18,0:01:34.70,Main,,0,0,0,,‏{\c&HFFFFFF&}ו-47 {\c&HFFFFFF&}סנטימטר {\c&H00D7FF&}לרוחב
-Dialogue: 0,0:01:35.62,0:01:36.38,Main,,0,0,0,,‏{\c&H00D7FF&}פשוט {\c&HFFFFFF&}מטורף
-Dialogue: 0,0:01:36.38,0:01:36.92,Main,,0,0,0,,‏{\c&HFFFFFF&}פשוט {\c&H00D7FF&}מטורף
-Dialogue: 0,0:01:36.92,0:01:38.20,Main,,0,0,0,,‏{\c&H00D7FF&}מעבר {\c&HFFFFFF&}לזה {\c&HFFFFFF&}יש
+Dialogue: 0,0:01:36.42,0:01:36.92,Main,,0,0,0,,‏{\c&HFFFFFF&}פשוט {\c&H00D7FF&}מטורף
+Dialogue: 0,0:01:36.92,0:01:37.12,Main,,0,0,0,,‏{\c&H00D7FF&}מעבר {\c&HFFFFFF&}לזה {\c&HFFFFFF&}יש
+Dialogue: 0,0:01:37.99,0:01:38.20,Main,,0,0,0,,‏{\c&H00D7FF&}מעבר {\c&HFFFFFF&}לזה {\c&HFFFFFF&}יש
 Dialogue: 0,0:01:38.20,0:01:38.56,Main,,0,0,0,,‏{\c&HFFFFFF&}מעבר {\c&H00D7FF&}לזה {\c&HFFFFFF&}יש
 Dialogue: 0,0:01:38.56,0:01:38.82,Main,,0,0,0,,‏{\c&HFFFFFF&}מעבר {\c&HFFFFFF&}לזה {\c&H00D7FF&}יש
 Dialogue: 0,0:01:38.82,0:01:39.04,Main,,0,0,0,,‏{\c&H00D7FF&}כמה {\c&HFFFFFF&}מבצעים {\c&HFFFFFF&}ממש
@@ -202,14 +208,15 @@ Dialogue: 0,0:01:44.22,0:01:44.58,Main,,0,0,0,,‏{\c&H00D7FF&}תראו {\c&HFFF
 Dialogue: 0,0:01:44.40,0:01:50.00,Info,,0,0,0,,Icons: 40898\NVenetian Water Taxi GWP\N{\fs88\c&H00D7FF&}322 חלקים
 Dialogue: 0,0:01:44.58,0:01:44.72,Main,,0,0,0,,‏{\c&HFFFFFF&}תראו {\c&H00D7FF&}איזה {\c&HFFFFFF&}מטורף
 Dialogue: 0,0:01:44.72,0:01:45.22,Main,,0,0,0,,‏{\c&HFFFFFF&}תראו {\c&HFFFFFF&}איזה {\c&H00D7FF&}מטורף
-Dialogue: 0,0:01:46.10,0:01:46.86,Main,,0,0,0,,‏{\c&H00D7FF&}ויש {\c&HFFFFFF&}לנו {\c&HFFFFFF&}פה
+Dialogue: 0,0:01:46.47,0:01:46.86,Main,,0,0,0,,‏{\c&H00D7FF&}ויש {\c&HFFFFFF&}לנו {\c&HFFFFFF&}פה
 Dialogue: 0,0:01:46.86,0:01:47.04,Main,,0,0,0,,‏{\c&HFFFFFF&}ויש {\c&H00D7FF&}לנו {\c&HFFFFFF&}פה
 Dialogue: 0,0:01:47.04,0:01:47.28,Main,,0,0,0,,‏{\c&HFFFFFF&}ויש {\c&HFFFFFF&}לנו {\c&H00D7FF&}פה
 Dialogue: 0,0:01:47.28,0:01:47.58,Main,,0,0,0,,‏{\c&H00D7FF&}את {\c&HFFFFFF&}המבצעים
 Dialogue: 0,0:01:47.58,0:01:48.44,Main,,0,0,0,,‏{\c&HFFFFFF&}את {\c&H00D7FF&}המבצעים
 Dialogue: 0,0:01:48.44,0:01:48.70,Main,,0,0,0,,‏{\c&H00D7FF&}של {\c&HFFFFFF&}נובמבר
 Dialogue: 0,0:01:48.70,0:01:49.28,Main,,0,0,0,,‏{\c&HFFFFFF&}של {\c&H00D7FF&}נובמבר
-Dialogue: 0,0:01:49.28,0:01:50.46,Main,,0,0,0,,‏{\c&H00D7FF&}ויש {\c&HFFFFFF&}גם {\c&HFFFFFF&}מתנה
+Dialogue: 0,0:01:49.28,0:01:49.50,Main,,0,0,0,,‏{\c&H00D7FF&}ויש {\c&HFFFFFF&}גם {\c&HFFFFFF&}מתנה
+Dialogue: 0,0:01:50.18,0:01:50.46,Main,,0,0,0,,‏{\c&H00D7FF&}ויש {\c&HFFFFFF&}גם {\c&HFFFFFF&}מתנה
 Dialogue: 0,0:01:50.46,0:01:50.60,Main,,0,0,0,,‏{\c&HFFFFFF&}ויש {\c&H00D7FF&}גם {\c&HFFFFFF&}מתנה
 Dialogue: 0,0:01:50.60,0:01:50.98,Main,,0,0,0,,‏{\c&HFFFFFF&}ויש {\c&HFFFFFF&}גם {\c&H00D7FF&}מתנה
 Dialogue: 0,0:01:50.98,0:01:51.62,Main,,0,0,0,,‏{\c&H00D7FF&}ברכישה {\c&HFFFFFF&}חדשה
@@ -217,8 +224,9 @@ Dialogue: 0,0:01:51.62,0:01:51.92,Main,,0,0,0,,‏{\c&HFFFFFF&}ברכישה {\c&
 Dialogue: 0,0:01:51.92,0:01:52.18,Main,,0,0,0,,‏{\c&H00D7FF&}מעל {\c&HFFFFFF&}899 {\c&HFFFFFF&}שקלים
 Dialogue: 0,0:01:52.18,0:01:52.90,Main,,0,0,0,,‏{\c&HFFFFFF&}מעל {\c&H00D7FF&}899 {\c&HFFFFFF&}שקלים
 Dialogue: 0,0:01:52.90,0:01:53.62,Main,,0,0,0,,‏{\c&HFFFFFF&}מעל {\c&HFFFFFF&}899 {\c&H00D7FF&}שקלים
-Dialogue: 0,0:01:53.62,0:01:54.88,Main,,0,0,0,,‏{\c&H00D7FF&}מגניב
-Dialogue: 0,0:01:55.96,0:01:56.72,Main,,0,0,0,,‏{\c&H00D7FF&}ובנובמבר {\c&HFFFFFF&}סייל {\c&HFFFFFF&}יש
+Dialogue: 0,0:01:53.62,0:01:53.95,Main,,0,0,0,,‏{\c&H00D7FF&}מגניב
+Dialogue: 0,0:01:54.66,0:01:54.88,Main,,0,0,0,,‏{\c&H00D7FF&}מגניב
+Dialogue: 0,0:01:55.97,0:01:56.72,Main,,0,0,0,,‏{\c&H00D7FF&}ובנובמבר {\c&HFFFFFF&}סייל {\c&HFFFFFF&}יש
 Dialogue: 0,0:01:56.72,0:01:56.94,Main,,0,0,0,,‏{\c&HFFFFFF&}ובנובמבר {\c&H00D7FF&}סייל {\c&HFFFFFF&}יש
 Dialogue: 0,0:01:56.94,0:01:57.14,Main,,0,0,0,,‏{\c&HFFFFFF&}ובנובמבר {\c&HFFFFFF&}סייל {\c&H00D7FF&}יש
 Dialogue: 0,0:01:57.14,0:01:57.30,Main,,0,0,0,,‏{\c&H00D7FF&}את {\c&HFFFFFF&}המבצע {\c&HFFFFFF&}של
@@ -229,18 +237,17 @@ Dialogue: 0,0:01:58.08,0:01:58.40,Main,,0,0,0,,‏{\c&HFFFFFF&}50 {\c&H00D7FF&}%
 Dialogue: 0,0:01:58.40,0:01:58.76,Main,,0,0,0,,‏{\c&HFFFFFF&}50 {\c&HFFFFFF&}% {\c&H00D7FF&}הנחה
 Dialogue: 0,0:01:58.76,0:01:59.00,Main,,0,0,0,,‏{\c&H00D7FF&}לפריט {\c&HFFFFFF&}השני
 Dialogue: 0,0:01:59.00,0:01:59.46,Main,,0,0,0,,‏{\c&HFFFFFF&}לפריט {\c&H00D7FF&}השני
-Dialogue: 0,0:01:59.46,0:02:00.52,Main,,0,0,0,,‏{\c&H00D7FF&}מהדגמים {\c&HFFFFFF&}של {\c&HFFFFFF&}דיסני
+Dialogue: 0,0:01:59.46,0:01:59.74,Main,,0,0,0,,‏{\c&H00D7FF&}מהדגמים {\c&HFFFFFF&}של {\c&HFFFFFF&}דיסני
+Dialogue: 0,0:02:00.20,0:02:00.52,Main,,0,0,0,,‏{\c&H00D7FF&}מהדגמים {\c&HFFFFFF&}של {\c&HFFFFFF&}דיסני
 Dialogue: 0,0:02:00.52,0:02:00.72,Main,,0,0,0,,‏{\c&HFFFFFF&}מהדגמים {\c&H00D7FF&}של {\c&HFFFFFF&}דיסני
 Dialogue: 0,0:02:00.72,0:02:01.04,Main,,0,0,0,,‏{\c&HFFFFFF&}מהדגמים {\c&HFFFFFF&}של {\c&H00D7FF&}דיסני
 Dialogue: 0,0:02:01.04,0:02:01.23,Main,,0,0,0,,‏{\c&H00D7FF&}וסטאר {\c&HFFFFFF&}וורס
 Dialogue: 0,0:02:01.23,0:02:01.54,Main,,0,0,0,,‏{\c&HFFFFFF&}וסטאר {\c&H00D7FF&}וורס
-Dialogue: 0,0:02:02.36,0:02:03.12,Main,,0,0,0,,‏{\c&H00D7FF&}זה {\c&HFFFFFF&}המתנה
 Dialogue: 0,0:02:02.40,0:02:07.80,Info,,0,0,0,,Ideas: 40889\NBuild, Paint and Play GWP\N{\fs88\c&H00D7FF&}158 חלקים
-Dialogue: 0,0:02:03.12,0:02:04.00,Main,,0,0,0,,‏{\c&HFFFFFF&}זה {\c&H00D7FF&}המתנה
-Dialogue: 0,0:02:04.20,0:02:04.20,Main,,0,0,0,,‏{\c&H00D7FF&}ומתנה {\c&HFFFFFF&}ברכישה {\c&HFFFFFF&}חדש
+Dialogue: 0,0:02:03.36,0:02:04.00,Main,,0,0,0,,‏{\c&HFFFFFF&}זה {\c&H00D7FF&}המתנה
 Dialogue: 0,0:02:04.20,0:02:04.56,Main,,0,0,0,,‏{\c&HFFFFFF&}ומתנה {\c&H00D7FF&}ברכישה {\c&HFFFFFF&}חדש
 Dialogue: 0,0:02:04.56,0:02:05.44,Main,,0,0,0,,‏{\c&HFFFFFF&}ומתנה {\c&HFFFFFF&}ברכישה {\c&H00D7FF&}חדש
-Dialogue: 0,0:02:08.09,0:02:08.81,Main,,0,0,0,,‏{\c&H00D7FF&}בקיצור {\c&HFFFFFF&}סטים
+Dialogue: 0,0:02:08.36,0:02:08.81,Main,,0,0,0,,‏{\c&H00D7FF&}בקיצור {\c&HFFFFFF&}סטים
 Dialogue: 0,0:02:08.81,0:02:09.17,Main,,0,0,0,,‏{\c&HFFFFFF&}בקיצור {\c&H00D7FF&}סטים
 Dialogue: 0,0:02:09.17,0:02:09.55,Main,,0,0,0,,‏{\c&H00D7FF&}פשוט {\c&HFFFFFF&}מדהימים
 Dialogue: 0,0:02:09.55,0:02:09.99,Main,,0,0,0,,‏{\c&HFFFFFF&}פשוט {\c&H00D7FF&}מדהימים
@@ -252,4 +259,4 @@ Dialogue: 0,0:02:11.53,0:02:11.85,Main,,0,0,0,,‏{\c&HFFFFFF&}אראה {\c&H00D
 Dialogue: 0,0:02:11.85,0:02:12.03,Main,,0,0,0,,‏{\c&H00D7FF&}איזה {\c&HFFFFFF&}סטים
 Dialogue: 0,0:02:12.03,0:02:12.41,Main,,0,0,0,,‏{\c&HFFFFFF&}איזה {\c&H00D7FF&}סטים
 Dialogue: 0,0:02:12.41,0:02:12.67,Main,,0,0,0,,‏{\c&H00D7FF&}אני {\c&HFFFFFF&}קיבלתי
-Dialogue: 0,0:02:12.67,0:02:13.41,Main,,0,0,0,,‏{\c&HFFFFFF&}אני {\c&H00D7FF&}קיבלתי
+Dialogue: 0,0:02:12.67,0:02:13.28,Main,,0,0,0,,‏{\c&HFFFFFF&}אני {\c&H00D7FF&}קיבלתי

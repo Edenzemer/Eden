@@ -47,6 +47,23 @@ for m in fixed:
     for k,t in enumerate(m):
         if t[2]<=t[1]: t[2]=t[1]+0.2
         if k+1<len(m) and t[2]>m[k+1][1]: t[2]=m[k+1][1]
+# clip captions to real speech (no text during silence)
+import os
+sp=json.load(open(os.path.join(os.path.dirname(os.path.abspath(src)),"speech.json")))
+mg=[]
+for a,b in sp:
+    if mg and a-mg[-1][1]<0.35: mg[-1][1]=b
+    else: mg.append([a,b])
+# first word starts in silence just before speech: start it at speech onset, keep later words as timed
+for m in fixed:
+    st=m[0][1]
+    if any(x-0.02<=st<=y for x,y in mg): continue
+    nxt=[x for x,y in mg if 0<x-st<=0.6]
+    if nxt:
+        m[0][1]=nxt[0]; m[0][2]=max(m[0][2],nxt[0]+0.12)
+        for k in range(1,len(m)):
+            m[k][1]=max(m[k][1],m[k-1][2])
+            if m[k][2]<=m[k][1]: m[k][2]=m[k][1]+0.12
 def chunks(m):
     n=len(m); g=math.ceil(n/3); size=math.ceil(n/g); return [m[i:i+size] for i in range(0,n,size)]
 def ts(t):
@@ -71,6 +88,13 @@ INFO=[
 ]
 for a,b,l1,l2,l3 in INFO:
     ev.append((a,b,"Info",f"{l1}\\N{l2}\\N{{\\fs88\\c&H00D7FF&}}{l3}"))
+clipped=[]
+for e in ev:
+    if e[2]!="Main": clipped.append(e); continue
+    for a,b in mg:
+        lo,hi=max(e[0],a),min(e[1],b)
+        if hi-lo>=0.04: clipped.append((lo,hi,e[2],e[3]))
+ev=clipped
 ev.sort(key=lambda e:(e[0],e[2]))
 main=[i for i,e in enumerate(ev) if e[2]=="Main"]
 for x,y in zip(main,main[1:]):
